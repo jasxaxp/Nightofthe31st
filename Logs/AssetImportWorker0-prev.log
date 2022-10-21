@@ -1,0 +1,280 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.3.1 (Build 20E241)
+Darwin version:          20.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jasminebittu/Desktop/Portfolio/GitHub/CCT382-FPS-Game/Night of the 31st
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60034
+Successfully changed project path to: /Users/jasminebittu/Desktop/Portfolio/GitHub/CCT382-FPS-Game/Night of the 31st
+/Users/jasminebittu/Desktop/Portfolio/GitHub/CCT382-FPS-Game/Night of the 31st
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 61.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jasminebittu/Desktop/Portfolio/GitHub/CCT382-FPS-Game/Night of the 31st/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001179 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 63.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (493ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (316ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001302 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/GitHub/CCT382-FPS-Game/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/GitHub/CCT382-FPS-Game/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 60.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (816ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (671ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3567 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (1.5 MB). Loaded Objects now: 4038.
+Memory consumption went from 261.8 MB to 260.3 MB.
+Total: 2.760708 ms (FindLiveObjects: 0.136958 ms CreateObjectMapping: 0.045042 ms MarkObjects: 2.336875 ms  DeleteObjects: 0.241291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3463773.135646 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(a99b5031732bf48eab7ebf0c32774536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(a99b5031732bf48eab7ebf0c32774536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252ee04e1ca787e5c3d54b29f927df76') in 0.644390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1322.621126 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 1.845337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2dd2fcfb070eff30dd06220f902a2a') in 0.002917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.nuget.newtonsoft-json/package.json
+  artifactKey: Guid(f8d4e5c2f2df25449ae8c391afbe5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.nuget.newtonsoft-json/package.json using Guid(f8d4e5c2f2df25449ae8c391afbe5114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c218fbffcdcb093e7ceeada5090097') in 0.001138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199695 seconds.
+  path: Packages/com.unity.services.core/package.json
+  artifactKey: Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/package.json using Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaf2f5816003290ee33f3893a41e36e') in 0.001642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.673286 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f445814511be1caffb984507b3a4793') in 0.002606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.500899 seconds.
+  path: Packages/com.unity.terrain-tools/package.json
+  artifactKey: Guid(f50728dbaf07be54d90705c02e335a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/package.json using Guid(f50728dbaf07be54d90705c02e335a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9742a49cf42df3bc3d52428c88ec54d0') in 0.002262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 373.260487 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets
+  artifactKey: Guid(6932408519b607d40b09cdb6b430b1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets using Guid(6932408519b607d40b09cdb6b430b1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36ba314c9e1dc690c6b2a604ecbff95') in 0.006962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.971082 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings
+  artifactKey: Guid(c8a88fcff67ea064fa7bd20326deb3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings using Guid(c8a88fcff67ea064fa7bd20326deb3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bced9ef50fec5b0951d80a0bcbe1032e') in 0.001794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077463 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-billow.asset
+  artifactKey: Guid(160f4fba5e57cc34b9ebbc26d0c4c2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-billow.asset using Guid(160f4fba5e57cc34b9ebbc26d0c4c2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458015c9473534ad7f39e4a72fbaa8e0') in 0.282343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-voronoi.asset
+  artifactKey: Guid(b61886f070cec524f9808fb58b7746f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-voronoi.asset using Guid(b61886f070cec524f9808fb58b7746f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157eb255855bb07254724613d9bc8317') in 0.002574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-smooth-rock.asset
+  artifactKey: Guid(541ff331803b0454789cb8044e6538d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-smooth-rock.asset using Guid(541ff331803b0454789cb8044e6538d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f808e19100c8b67fe0bc796fbbef485d') in 0.001434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-warped-ridge.asset
+  artifactKey: Guid(cbde8d106622e1b4faa539be8a604483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-warped-ridge.asset using Guid(cbde8d106622e1b4faa539be8a604483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b6a67e8eb12cbc016d870b31a1d1b') in 0.001830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-value.asset
+  artifactKey: Guid(2bd57fdf3bd82474d9a87ecf4140ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-value.asset using Guid(2bd57fdf3bd82474d9a87ecf4140ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43f9813c0696c400e3dc9cb83dcdb6a') in 0.001864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-ridge.asset
+  artifactKey: Guid(1f3997e5c19b61443936ca9a216e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-ridge.asset using Guid(1f3997e5c19b61443936ca9a216e4b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446881d8ad0bdf9c2ecb9ebce2cb9ada') in 0.001667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-perlin.asset
+  artifactKey: Guid(29dccd1689a8b8140abd4e0c39422041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/ExampleAssets/NoiseSettings/noise-perlin.asset using Guid(29dccd1689a8b8140abd4e0c39422041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5486c16b661ac81ab55f0a21c0e0db2f') in 0.001255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.880127 seconds.
+  path: Packages/com.unity.terrain-tools/Editor/Unity.TerrainTools.Editor.asmdef
+  artifactKey: Guid(99491abea1d2e7b47b99bc47c7d66616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/Editor/Unity.TerrainTools.Editor.asmdef using Guid(99491abea1d2e7b47b99bc47c7d66616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19887d92ebb25dddc6148c90b68dd2bf') in 0.337533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.661452 seconds.
+  path: Packages/com.unity.terrain-tools/Editor/TerrainTools
+  artifactKey: Guid(3b74231a64fdf864eaf73927b853ebdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/Editor/TerrainTools using Guid(3b74231a64fdf864eaf73927b853ebdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ecc59aa7002bbb276ac26ef6c9ee17') in 0.001641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.255853 seconds.
+  path: Packages/com.unity.terrain-tools/Shaders/TerrainTools.hlsl
+  artifactKey: Guid(da312aa829ad4854397a870f53243bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/Shaders/TerrainTools.hlsl using Guid(da312aa829ad4854397a870f53243bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3742d14b47ee0efbb40cdda284450a9') in 0.089777 seconds 
