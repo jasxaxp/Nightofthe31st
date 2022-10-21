@@ -164,3 +164,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6540.254183 seconds.
+  path: Assets/Trees
+  artifactKey: Guid(4b1463f84a144435b9620fabc6204b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees using Guid(4b1463f84a144435b9620fabc6204b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab700bb1bdc10b2b7e8c81dc29433f3f') in 0.026086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.163703 seconds.
+  path: Assets/Trees/trees9.mtl
+  artifactKey: Guid(836ff384c988e4bbc9bf868c764932c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees/trees9.mtl using Guid(836ff384c988e4bbc9bf868c764932c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0121384d8ac88c74aa3e6358e60f93') in 0.091396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.367427 seconds.
+  path: Assets/Trees/trees9.obj
+  artifactKey: Guid(35e7944e409954b5a8f3d7db97afec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trees/trees9.obj using Guid(35e7944e409954b5a8f3d7db97afec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3027207b9f77914f7de4dec15d7f53be') in 1.150926 seconds 
