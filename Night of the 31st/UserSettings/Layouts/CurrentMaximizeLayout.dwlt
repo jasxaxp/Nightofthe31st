@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
-  controlID: 3967
+  controlID: 4539
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,9 +250,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 167.5, y: -306.56073, z: 47.075073}
+    m_Target: {x: 132.07153, y: -402.61157, z: 149.72168}
     speed: 2
-    m_Value: {x: 167.5, y: -306.56073, z: 47.075073}
+    m_Value: {x: 132.07153, y: -402.61157, z: 149.72168}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -303,9 +303,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 579.40875
+    m_Target: 807.2009
     speed: 2
-    m_Value: 550.2337
+    m_Value: 807.2009
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 321}
   m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
-  controlID: 3968
+  controlID: 4540
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 3969
+  controlID: 4541
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -437,8 +437,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e2740000
-      m_LastClickedID: 29922
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: a0b7ffff18c1ffff5cc2ffff24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -651,23 +651,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Fantasy Skybox FREE
+    - Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Fantasy Skybox FREE
+  - Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of
     the 31st
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 29.000244}
-    m_SelectedIDs: 0e630000
-    m_LastClickedID: 25358
-    m_ExpandedIDs: 00000000ae5b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 1a7d0000
+    m_LastClickedID: 32026
+    m_ExpandedIDs: 00000000ae5b0000fc7c0000087d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -720,9 +720,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e2740000
-    m_LastClickedInstanceID: 29922
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -747,7 +747,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 4}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
