@@ -206,3 +206,15 @@ Received Import Request.
   path: Assets/waterfall/Materials/waterfall.mat
   artifactKey: Guid(3debef754071a4a99accb181cf7b0578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/waterfall/Materials/waterfall.mat using Guid(3debef754071a4a99accb181cf7b0578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992fa18ac1596c6e7a9938fa334829f3') in 0.518424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1117.131317 seconds.
+  path: Assets/waterfall/water.png
+  artifactKey: Guid(002994a48aa17496babcfe9356422840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/waterfall/water.png using Guid(002994a48aa17496babcfe9356422840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dad7b8de00d6a493a74c0006cfedc7') in 0.095268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.336731 seconds.
+  path: Assets/waterfall/water 1.png
+  artifactKey: Guid(a661f405dfeb04570883bf02375b8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/waterfall/water 1.png using Guid(a661f405dfeb04570883bf02375b8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f6b3dcd79ceb064271348c11021b4a') in 0.077613 seconds 
