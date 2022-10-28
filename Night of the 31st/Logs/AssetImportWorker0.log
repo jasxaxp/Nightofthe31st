@@ -458,3 +458,40 @@ Received Import Request.
   path: Assets/mainmenu/gamemenu.png
   artifactKey: Guid(b335012aaa38141d8ba1115b628cfc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/mainmenu/gamemenu.png using Guid(b335012aaa38141d8ba1115b628cfc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08d7a72da811728c5c1d2901d54bdc1') in 0.201711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 388.610653 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d7d11c621a0367955367fb70f130ec') in 0.252579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.240740 seconds.
+  path: Assets/mainmenu/youmurdererbb_reg.ttf
+  artifactKey: Guid(2ef7ae15ebee94fb4b3c4a60aefe571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenu/youmurdererbb_reg.ttf using Guid(2ef7ae15ebee94fb4b3c4a60aefe571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c5044d0d636115db09eb47b7fc5b05') in 1.204778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.830435 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075f4883cd0895ada360a4b4cc87b6fa') in 0.158544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.313009 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39d3b365ae06f4a5d582e5614ba55e') in 0.033660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.342039 seconds.
+  path: Assets/mainmenu/youmurdererbb_reg.sfd
+  artifactKey: Guid(5f97eccb316944213b0780d6f9a18a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenu/youmurdererbb_reg.sfd using Guid(5f97eccb316944213b0780d6f9a18a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6958b7a5dc853d52068251deb7df3912') in 0.057093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.259281 seconds.
+  path: Assets/mainmenu/youmurdererbb_reg SDF.asset
+  artifactKey: Guid(30e525bf2d2d24385871dbd0bb708829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenu/youmurdererbb_reg SDF.asset using Guid(30e525bf2d2d24385871dbd0bb708829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'ff4b107eb4a6dfe97b0583863a6149ef') in 0.299431 seconds 
