@@ -278,3 +278,183 @@ Received Import Request.
   path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockDetailsB.prefab
   artifactKey: Guid(db0765e6c54e2234d9644377794d9ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_RockDetailsB.prefab using Guid(db0765e6c54e2234d9644377794d9ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66975250851fae58f1384db68ae78985') in 0.013877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3355.394430 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(219234112165f4050b9064ca6fca2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(219234112165f4050b9064ca6fca2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf1cdf24b460602ae5999760ff2a904') in 0.162619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.663328 seconds.
+  path: Assets/MainMenu.unity
+  artifactKey: Guid(f730f665712874f7384a490b1109f44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu.unity using Guid(f730f665712874f7384a490b1109f44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b07e6243e22160d34556561c839b0b') in 0.001436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 230.626068 seconds.
+  path: Assets/MainMenu.unity
+  artifactKey: Guid(f730f665712874f7384a490b1109f44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu.unity using Guid(f730f665712874f7384a490b1109f44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad28437be330b562529e40051f843a5a') in 0.002831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.356916 seconds.
+  path: Assets/MainGame.unity
+  artifactKey: Guid(436fca8af91be429ea4bf5f3b15ef7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame.unity using Guid(436fca8af91be429ea4bf5f3b15ef7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7d98b4bfed391af2902e08d5730111') in 0.002053 seconds 
+========================================================================
+Received Prepare
+Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.001321 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28c587000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4109.
+Memory consumption went from 364.5 MB to 363.9 MB.
+Total: 5.351292 ms (FindLiveObjects: 0.206083 ms CreateObjectMapping: 0.104167 ms MarkObjects: 4.898791 ms  DeleteObjects: 0.141708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.001678 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16be3f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4112.
+Memory consumption went from 364.7 MB to 364.1 MB.
+Total: 3.186583 ms (FindLiveObjects: 0.415542 ms CreateObjectMapping: 0.047333 ms MarkObjects: 2.534333 ms  DeleteObjects: 0.188625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 389.394646 seconds.
+  path: Assets/mainmenu
+  artifactKey: Guid(de335b49877c2402eb15c9ec48d531fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenu using Guid(de335b49877c2402eb15c9ec48d531fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1bdc3f0a701d4761f1df6b87163d35') in 0.032615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.401526 seconds.
+  path: Assets/mainmenu/gamemenu.png
+  artifactKey: Guid(b335012aaa38141d8ba1115b628cfc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenu/gamemenu.png using Guid(b335012aaa38141d8ba1115b628cfc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486400d7f85585fa93cd4809d3659b0c') in 0.135486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 295.615883 seconds.
+  path: Assets/waterfall
+  artifactKey: Guid(6cf00408cd6bc493dbe6d6176cc3a116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/waterfall using Guid(6cf00408cd6bc493dbe6d6176cc3a116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945172b1b9aa65dbdcb7e0a311295473') in 0.002069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.206348 seconds.
+  path: Assets/mainmenu/gamemenu.png
+  artifactKey: Guid(b335012aaa38141d8ba1115b628cfc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenu/gamemenu.png using Guid(b335012aaa38141d8ba1115b628cfc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84281cf188c999e0e8d5c06fe5cde428') in 0.053859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.045819 seconds.
+  path: Assets/mainmenu/gamemenu.png
+  artifactKey: Guid(b335012aaa38141d8ba1115b628cfc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mainmenu/gamemenu.png using Guid(b335012aaa38141d8ba1115b628cfc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08d7a72da811728c5c1d2901d54bdc1') in 0.201711 seconds 
