@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58535
+61831
 Successfully changed project path to: /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st
 /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -60,7 +60,7 @@ Please note that FBX files exported from Cinema4D are still supported.
 Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 110.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 140.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -75,11 +75,11 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56375
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56137
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001138 seconds.
+Registered in 0.000343 seconds.
 Native extension for OSXStandalone target not found
 Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -87,39 +87,39 @@ Please note that FBX files exported from Cinema4D are still supported.
 Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 76.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 78.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.528 seconds
+- Completed reload, in  0.589 seconds
 Domain Reload Profiling:
-	ReloadAssembly (528ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (163ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (357ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (5ms)
-			SetupTypeCache (95ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (339ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (75ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (206ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
+				RefreshPlugins (79ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005264 seconds.
+Registered in 0.005435 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -130,32 +130,32 @@ Please note that FBX files exported from Cinema4D are still supported.
 Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 83.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  0.872 seconds
 Domain Reload Profiling:
-	ReloadAssembly (860ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (872ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (715ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (375ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (385ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -175,16 +175,14 @@ Please note that FBX files exported from Cinema4D are still supported.
 Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-database is locked
-database is locked
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.27 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.32 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3568 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (0.6 MB). Loaded Objects now: 4051.
-Memory consumption went from 340.5 MB to 339.9 MB.
-Total: 3.113500 ms (FindLiveObjects: 0.179583 ms CreateObjectMapping: 0.071917 ms MarkObjects: 2.448334 ms  DeleteObjects: 0.412834 ms)
+Unloading 48 unused Assets / (0.6 MB). Loaded Objects now: 4054.
+Memory consumption went from 340.6 MB to 340.0 MB.
+Total: 3.966041 ms (FindLiveObjects: 0.206083 ms CreateObjectMapping: 0.101958 ms MarkObjects: 3.138042 ms  DeleteObjects: 0.519000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -198,1634 +196,304 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 131805.083857 seconds.
-  path: Assets/pumpkin/Bad Jack.fbx
-  artifactKey: Guid(548eb81e9d6814d7896d03a0c6bfc97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin/Bad Jack.fbx using Guid(548eb81e9d6814d7896d03a0c6bfc97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d43aa7770bc4dc30ca706e96de848e') in 0.234139 seconds 
+  Time since last request: 135176.370899 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_RockDetailsB.fbx
+  artifactKey: Guid(a80bfbcbd0344194fb71fd467f73956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_RockDetailsB.fbx using Guid(a80bfbcbd0344194fb71fd467f73956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9808567fd98789105e0f082a0cca9e6f') in 0.208245 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumB.mat
-  artifactKey: Guid(0a535cf27e7d7dd4d8857f6b49fbbea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumB.mat using Guid(0a535cf27e7d7dd4d8857f6b49fbbea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329b8593fab68f850ee4128a621ecead') in 0.095174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceLeaves_Nature.mat
-  artifactKey: Guid(36ede47c7a6a4504c8bb7ccacbb8582b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceLeaves_Nature.mat using Guid(36ede47c7a6a4504c8bb7ccacbb8582b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba91009bfab60cf7d0c2003e1d9f996') in 0.082879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Models/Haunted Sundanese Traditional House/FBX/haunted sundanese traditional house.fbx
-  artifactKey: Guid(0a922203ce3764231b5f5c1589971739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Haunted Sundanese Traditional House/FBX/haunted sundanese traditional house.fbx using Guid(0a922203ce3764231b5f5c1589971739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f49c23255f2d2aee26bb6fa010752a') in 0.111065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumC.mat
-  artifactKey: Guid(8f52d028c029b574ca501879a81d8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumC.mat using Guid(8f52d028c029b574ca501879a81d8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db748ce23837f238b70459e1a4f3540') in 0.164237 seconds 
+  Time since last request: 40.432319 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_SpruceA.fbx
+  artifactKey: Guid(b6e127cb00c9dda40b7cac23fea4d82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_SpruceA.fbx using Guid(b6e127cb00c9dda40b7cac23fea4d82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f204100e2cd991c20094fe6ceaffc93c') in 0.059899 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000051 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumB_Mobile.mat
-  artifactKey: Guid(ef58bab276304d94bb9a343ed340560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumB_Mobile.mat using Guid(ef58bab276304d94bb9a343ed340560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc216db91ae46959727b454fbcceb55a') in 0.011594 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_LowRockMedium.fbx
+  artifactKey: Guid(20c4a542f1252fb4e8fbf9612112c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_LowRockMedium.fbx using Guid(20c4a542f1252fb4e8fbf9612112c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db052bbe6f06b12d30ceb5676afc4ad4') in 0.009313 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumA.mat
-  artifactKey: Guid(f5c7d7069c1db5c4bb8cd140222a6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_RockMediumA.mat using Guid(f5c7d7069c1db5c4bb8cd140222a6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e895899ab17b34cb76ac463c435db569') in 0.017823 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_SpruceB.fbx
+  artifactKey: Guid(59cbdc64f3ac49c4db5f5808cb9de3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_SpruceB.fbx using Guid(59cbdc64f3ac49c4db5f5808cb9de3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47a0af423bb94910ec06e6447cc0e5a') in 0.020681 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000051 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceTrunk_Nature.mat
-  artifactKey: Guid(b6b55900a82122d4cac45581a7cd97db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceTrunk_Nature.mat using Guid(b6b55900a82122d4cac45581a7cd97db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37b1c84e9104fb5ab78cec7afa273e0') in 0.045237 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHE_SpruceTerrainA.fbx
+  artifactKey: Guid(27901aaed5f6e6047bde1faff7c2bba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHE_SpruceTerrainA.fbx using Guid(27901aaed5f6e6047bde1faff7c2bba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4b8ef25ddc44e2cbb612afafc315d0') in 0.013968 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Models/70-well_obj/well_OBJ.obj
-  artifactKey: Guid(61262ad23560d4a4b986c5e80cce5a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/70-well_obj/well_OBJ.obj using Guid(61262ad23560d4a4b986c5e80cce5a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a5c17324d1ae8f2b3192df848f37f1') in 0.848126 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_SpruceC.fbx
+  artifactKey: Guid(be178fcceb59af6439ebb3a2184b7819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/RHEF_SpruceC.fbx using Guid(be178fcceb59af6439ebb3a2184b7819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f7f21e1297c9545e709563e789b10') in 0.033382 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Sunless_Cubemap.mat
-  artifactKey: Guid(1dfc2aa9d900889499587bd874c3da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Sunless_Cubemap.mat using Guid(1dfc2aa9d900889499587bd874c3da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f694854062f4df4d4ec2820fcaf887df') in 0.014772 seconds 
+  Time since last request: 0.855410 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/MRL_RockMediumB.fbx
+  artifactKey: Guid(8ebbc78dc4948104ca53341d09c83f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Models/MRL_RockMediumB.fbx using Guid(8ebbc78dc4948104ca53341d09c83f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9d129524bd10550c3ee53d5cdcfa92') in 0.014547 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat
-  artifactKey: Guid(cd1b8774e71770546bec980a3d98344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat using Guid(cd1b8774e71770546bec980a3d98344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e60f1660c8ad435efd76de59411f99') in 0.014088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat
-  artifactKey: Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat using Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48de1c329c80704ed9a627e60b21221') in 0.013802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 3/Materials/MRL_Rock_Medium 3.mat
-  artifactKey: Guid(39c12c011d7ba8741902dca79398befd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 3/Materials/MRL_Rock_Medium 3.mat using Guid(39c12c011d7ba8741902dca79398befd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0285fcf30d6563e3b66e7027c33fa5b') in 0.007878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.mat
-  artifactKey: Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.mat using Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e684d8b11865ad64c80ff917f99b34') in 0.008394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat
-  artifactKey: Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat using Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7a14432a2a2f7e81c4781f8b15df48') in 0.008958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat
-  artifactKey: Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat using Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637ff4f3d856a75feaf1ae728ec2c5e9') in 0.007771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Sunless_Cubemap.mat
-  artifactKey: Guid(400d8db5104338b428633f2079c1b88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Sunless_Cubemap.mat using Guid(400d8db5104338b428633f2079c1b88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ba48046a80fb3c8d23f33f5d5f3e87') in 0.013887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Cubemap.mat
-  artifactKey: Guid(4c12da8dc5dced74e838120da11725a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Cubemap.mat using Guid(4c12da8dc5dced74e838120da11725a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546754a9d3b0dedfef1d9e32aba8df01') in 0.016509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunrise.mat
-  artifactKey: Guid(023808db2bfa00d44929aa2176d29c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunrise.mat using Guid(023808db2bfa00d44929aa2176d29c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a608e90fe2602a22eb3d2d9a48db0d91') in 0.006817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat
-  artifactKey: Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat using Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33107faa409f8093309bd049b0993354') in 0.007156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat
-  artifactKey: Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat using Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d0adada70b5fbdf812b2e62eccc91a') in 0.007878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.mat
-  artifactKey: Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.mat using Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13b263513dec6b51b51f211c99769c5') in 0.007503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Models/Haunted Sundanese Traditional House/OBJ/Haunted_Sundanese_Traditional_House.obj
-  artifactKey: Guid(3908cbe292f14420bb35fd207891fbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Haunted Sundanese Traditional House/OBJ/Haunted_Sundanese_Traditional_House.obj using Guid(3908cbe292f14420bb35fd207891fbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bcf8c82a96db5238138a923290b568') in 0.024682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.mat
-  artifactKey: Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.mat using Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bca62f2db0c0fcc9f1d993e47d9b3e') in 0.007934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Sunless_Cubemap.mat
-  artifactKey: Guid(0cd0203ab60f88f4db947a87b4f57cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Sunless_Cubemap.mat using Guid(0cd0203ab60f88f4db947a87b4f57cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14008244cb8c4ec4afc556acd8d3483c') in 0.013634 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/Mesh/MRL_Rock_Medium 1_LOD 2.FBX
+  artifactKey: Guid(c71ad7efe03a12d498b7c2d57a9eb772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/Mesh/MRL_Rock_Medium 1_LOD 2.FBX using Guid(c71ad7efe03a12d498b7c2d57a9eb772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dc8f7c9d47b4f32aa3a029ebf930c2') in 0.041733 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000059 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/Materials/MRL_Low Rock_Medium.mat
-  artifactKey: Guid(bb1c83d30bb66964f995bbf1ef452fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/Materials/MRL_Low Rock_Medium.mat using Guid(bb1c83d30bb66964f995bbf1ef452fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c5ecbdb3e1d26afcb236a350e11c7a') in 0.024401 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Mesh/MRL_Generic Cliff 6_LOD 0.FBX
+  artifactKey: Guid(04507afa25982984fa397d3d0f89194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Mesh/MRL_Generic Cliff 6_LOD 0.FBX using Guid(04507afa25982984fa397d3d0f89194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2094c3a1517325dce62d218cebeb99f') in 0.022272 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Snowy_Cubemap.mat
-  artifactKey: Guid(4f0579e073abe59409641925c6e53e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Snowy_Cubemap.mat using Guid(4f0579e073abe59409641925c6e53e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc2cce421693171b5c0f2deef535c2e') in 0.014999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.mat
-  artifactKey: Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.mat using Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143472f2eaa5c1c9ff11a3ff6cd0e573') in 0.008684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat
-  artifactKey: Guid(d4e34faecb9b9564e941b0a4236003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat using Guid(d4e34faecb9b9564e941b0a4236003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28d4d1ac71753049d6e61fd0fc956b3') in 0.014450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Cliff_Medium/Materials/MRL_Low Cliff_Medium.mat
-  artifactKey: Guid(5cdf23cad68f74f47a52d00fd000e10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Cliff_Medium/Materials/MRL_Low Cliff_Medium.mat using Guid(5cdf23cad68f74f47a52d00fd000e10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0753bdceb2d6b4a010c71604427d05') in 0.008807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.mat
-  artifactKey: Guid(3a253cab252a165478338fba0f03e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.mat using Guid(3a253cab252a165478338fba0f03e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691fd724e2e819628dc2eaeddc1c403e') in 0.007917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/Materials/MRL_Generic Cliff 5.mat
-  artifactKey: Guid(ddd91943b6b01cc4e9e590a5e328191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/Materials/MRL_Generic Cliff 5.mat using Guid(ddd91943b6b01cc4e9e590a5e328191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcedf98231e50d733fdc6ba6df0a170') in 0.006704 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/Mesh/MRL_Generic Cliff 5_LOD 0.FBX
+  artifactKey: Guid(327429778965f3e408d01c97cb7fc426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/Mesh/MRL_Generic Cliff 5_LOD 0.FBX using Guid(327429778965f3e408d01c97cb7fc426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b4d7f7c428926a50795193bdd97f5b') in 0.024768 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.mat
-  artifactKey: Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.mat using Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabccfacaad5ab9e9120b468565c755d') in 0.007992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 4/Materials/Generic Cliff 4.mat
-  artifactKey: Guid(f59ba79cfe0276d459c07158d1572145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 4/Materials/Generic Cliff 4.mat using Guid(f59ba79cfe0276d459c07158d1572145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb28edc07c9fe093538679fc76341415') in 0.010958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 3/Materials/MRL_Generic Cliff 3.mat
-  artifactKey: Guid(703aa4369032ad54b9abfb04a26ce45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 3/Materials/MRL_Generic Cliff 3.mat using Guid(703aa4369032ad54b9abfb04a26ce45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd04340897e4b98708b848db625d7fe3') in 0.008839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.mat
-  artifactKey: Guid(8202c457dff32486ba5ae1f2f548d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.mat using Guid(8202c457dff32486ba5ae1f2f548d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6c466571d8d8feaee282b25515e2dc') in 0.007405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 2/Materials/MRL_Rock_Medium 2.mat
-  artifactKey: Guid(e1cd7c53516c90e4eb2c6802e85dc9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 2/Materials/MRL_Rock_Medium 2.mat using Guid(e1cd7c53516c90e4eb2c6802e85dc9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc578b8e5fe890d69f9a33a2355a4cb5') in 0.007164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Cubemap.mat
-  artifactKey: Guid(6075488e92597c9478c885b7b54674a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Cubemap.mat using Guid(6075488e92597c9478c885b7b54674a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b62ece594547daf6e42f30d303a44b') in 0.014366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.mat
-  artifactKey: Guid(6e00f8b39315691449f256740a5cb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.mat using Guid(6e00f8b39315691449f256740a5cb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833783f80c25d4ea89bbffc0b39d2e10') in 0.009298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA_DiffuseMobile.mat
-  artifactKey: Guid(c38516a998ce6e94d922ad82a424e9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_GenericCliffA_DiffuseMobile.mat using Guid(c38516a998ce6e94d922ad82a424e9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8cf773ece9cb3ad1c951e2b3d81e2e') in 0.014291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.mat
-  artifactKey: Guid(7c86d4abbd33b564b9e773aceadb8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.mat using Guid(7c86d4abbd33b564b9e773aceadb8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5b0d0699be8c06d20f302798760666') in 0.007043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat
-  artifactKey: Guid(a59fe87939f259d40a7ee37624c9568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat using Guid(a59fe87939f259d40a7ee37624c9568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fb1ea70009b370a95d4d7312fc18b3') in 0.014320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_CaveTop.mat
-  artifactKey: Guid(512599429162124479bce8a91fff86a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_CaveTop.mat using Guid(512599429162124479bce8a91fff86a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bc6518e5fd587f1c86e452614f2006') in 0.059188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Materials/MRL_Generic Cliff 6.mat
-  artifactKey: Guid(a28351991584f22438a309160d187dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Materials/MRL_Generic Cliff 6.mat using Guid(a28351991584f22438a309160d187dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1def39f7e0b1c53deb9c949c64d4deb') in 0.008609 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/Mesh/MRL_Rock_Medium 1_LOD 0.FBX
+  artifactKey: Guid(d5872b204503c1f4d91600dc965c59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/Mesh/MRL_Rock_Medium 1_LOD 0.FBX using Guid(d5872b204503c1f4d91600dc965c59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f005849fe0cf5b77efaaa3c0852e120b') in 0.040539 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000064 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well.obj
-  artifactKey: Guid(2f2d40dcd773f4275bcf9aa885b097be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well.obj using Guid(2f2d40dcd773f4275bcf9aa885b097be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cf5757cf489796d56e1998738604a0') in 0.308002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Sunless_Cubemap.mat
-  artifactKey: Guid(4daf60de510e93a4b82c4717c0cb4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Sunless_Cubemap.mat using Guid(4daf60de510e93a4b82c4717c0cb4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b102b59fb1f55e6d1095bb287fc9418') in 0.016875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Moonless_Cubemap.mat
-  artifactKey: Guid(8c94435c262dc614799eb36fd36c5b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Moonless_Cubemap.mat using Guid(8c94435c262dc614799eb36fd36c5b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7285343c7cb256702efb08b3eedc7d2') in 0.014701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat
-  artifactKey: Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat using Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6b676f4c74b62666d85ac4a485fe88') in 0.008168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.mat
-  artifactKey: Guid(8426cf3d3939a7d419671f3d5c269c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.mat using Guid(8426cf3d3939a7d419671f3d5c269c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4142f566c5c22eb065586ecec9d0885e') in 0.008421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.mat
-  artifactKey: Guid(c051fe5a20f72814f9643eb10ebbd2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.mat using Guid(c051fe5a20f72814f9643eb10ebbd2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafd5565c974c1a655bb94f817ae4d8f') in 0.007685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01.mat
-  artifactKey: Guid(12ccb828343c3405fb94289774b51aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01.mat using Guid(12ccb828343c3405fb94289774b51aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff54b934059af1be68cd4d7f1629ce36') in 0.007324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat
-  artifactKey: Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat using Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a25a4921b174eff114c703044eb4262') in 0.008589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.mat
-  artifactKey: Guid(20cbde986f628bb41bbc92dfd61311cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.mat using Guid(20cbde986f628bb41bbc92dfd61311cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc52de18e4c195226eb8ff3a9b028da') in 0.007069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat
-  artifactKey: Guid(737024f24a4498b4ea58a67c1667a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat using Guid(737024f24a4498b4ea58a67c1667a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba4ff2b743641a9a29a638206233763') in 0.014335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat
-  artifactKey: Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat using Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212b7bc3ff65a4bfb9384d878ba2f704') in 0.007386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/Materials/MRL_Generic Cliff.mat
-  artifactKey: Guid(644e9cb1701065b498fd7c53bb20793c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/Materials/MRL_Generic Cliff.mat using Guid(644e9cb1701065b498fd7c53bb20793c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c003b83188273b2328daff32b43e75be') in 0.008180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.mat
-  artifactKey: Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.mat using Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929caeb8753f0d2c3f918189f53f2ef0') in 0.006821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 567.402919 seconds.
-  path: Packages/com.unity.terrain-tools/Editor/TerrainTools/FilterStack/Editor/Images/eye.png
-  artifactKey: Guid(dc82067d62dba0c4c866ba18aa25eb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.terrain-tools/Editor/TerrainTools/FilterStack/Editor/Images/eye.png using Guid(dc82067d62dba0c4c866ba18aa25eb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605401b94009dace0476d5d534afe420') in 0.142744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Models/4vd2sk31doow-farmhouse_maya16/Farmhouse Maya 2016 Updated/Farmhouse Texture.jpg
-  artifactKey: Guid(01267980435ee4f7285ddd955518dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/4vd2sk31doow-farmhouse_maya16/Farmhouse Maya 2016 Updated/Farmhouse Texture.jpg using Guid(01267980435ee4f7285ddd955518dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ccc2617efa963db9b10152f736e903') in 0.429872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_up.png
-  artifactKey: Guid(f51f90147d7350747957e1c406e8d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_up.png using Guid(f51f90147d7350747957e1c406e8d741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021172c1a00d850525be9f0548843a80') in 0.007673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.png
-  artifactKey: Guid(3b9c8413bb7d59b4dbd832a9122271cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.png using Guid(3b9c8413bb7d59b4dbd832a9122271cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7e26db63745bc615e764babd4ef4e2') in 0.024464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_up.png
-  artifactKey: Guid(e51a6ed6a5279d943a83bc460f75babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_up.png using Guid(e51a6ed6a5279d943a83bc460f75babf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5f64ec3e4ccf43192a693b6f39bf69') in 0.005849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.png
-  artifactKey: Guid(88c467166db994146961f1ecc5fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.png using Guid(88c467166db994146961f1ecc5fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12aa38cdc1c48208252fd1e1d5436d') in 0.018845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap.cubemap
-  artifactKey: Guid(bd29e26ce260cf6469bb6afcba3d8518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap.cubemap using Guid(bd29e26ce260cf6469bb6afcba3d8518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018c987a05b02fed23bac60a9466c462') in 0.236679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.png
-  artifactKey: Guid(5dd1dab73acb80a4ca4a200b35ea95e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.png using Guid(5dd1dab73acb80a4ca4a200b35ea95e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b76f16c5a35b502cde458fca59f2c05') in 0.024044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.png
-  artifactKey: Guid(e60c8653c33d3da4d8f660c15214d3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.png using Guid(e60c8653c33d3da4d8f660c15214d3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665158e85402f9a93ff95d03865dc54b') in 0.022555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.png
-  artifactKey: Guid(6b057cc84b9df8440b171f96ff306279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.png using Guid(6b057cc84b9df8440b171f96ff306279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d46793b3b0c7a56e4e33b20c1ed629') in 0.018631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_down.png
-  artifactKey: Guid(20556ff95cea2fa44a44cd07980dae85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_down.png using Guid(20556ff95cea2fa44a44cd07980dae85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4853ca352a62fe89da027dbd12755db7') in 0.007248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_right.png
-  artifactKey: Guid(c75a63ebdcee1db45b07756a3a2f2350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_right.png using Guid(c75a63ebdcee1db45b07756a3a2f2350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384dd264fe15780510da9a9a549391f9') in 0.007027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_down.png
-  artifactKey: Guid(99f1ee3fa7b9cbd4c93ad9cf81a902cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_down.png using Guid(99f1ee3fa7b9cbd4c93ad9cf81a902cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ce8c8bf5bef3420e07659742b93232') in 0.005982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.png
-  artifactKey: Guid(33762238fbd938c4c97707195d7e97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.png using Guid(33762238fbd938c4c97707195d7e97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592569af56f12787774298680fb11655') in 0.021305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_right.png
-  artifactKey: Guid(80c88082f8ee85e43906e07025f0b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_right.png using Guid(80c88082f8ee85e43906e07025f0b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230de64bc89866fd227e4ba2cd735437') in 0.007669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_front.png
-  artifactKey: Guid(b7e7a8d676da05c47a63ff0e9dccd511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_front.png using Guid(b7e7a8d676da05c47a63ff0e9dccd511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa7d85466d26edd39e864cc2e809530') in 0.008183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_back.png
-  artifactKey: Guid(6ab28d3b61bdbbe43b8d2d25aeaef4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_back.png using Guid(6ab28d3b61bdbbe43b8d2d25aeaef4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed23de4ca71def6fbda4e767b1d61c0a') in 0.009905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png
-  artifactKey: Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png using Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7279f4d1c5d27d08b07254217bbee41') in 0.024713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_front.png
-  artifactKey: Guid(2ad190412b7214d4dbac8b94d41040ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_front.png using Guid(2ad190412b7214d4dbac8b94d41040ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fdcf4fffadbc11d49c7f75d56941ef') in 0.005547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_left.png
-  artifactKey: Guid(e10543b194b4ea54fabde2e5472ba8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_left.png using Guid(e10543b194b4ea54fabde2e5472ba8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc6992a98ee87c9794dd499a550bcf3') in 0.006914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_left.png
-  artifactKey: Guid(c9a386eb63853164db9186b026d55a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap_left.png using Guid(c9a386eb63853164db9186b026d55a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d3ec132845dcde4ca0dd2377974b8d') in 0.006815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.819224 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_up.png
-  artifactKey: Guid(6423a292befc83946b15b84c706de732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_up.png using Guid(6423a292befc83946b15b84c706de732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8f5521c840ee38bb937e32c8e956e9') in 0.012209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_back.png
-  artifactKey: Guid(e8786530aab0b1d4a8c68e1a66f8fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_back.png using Guid(e8786530aab0b1d4a8c68e1a66f8fbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c38b2bceeb647c0ff3ed5df19a50b00') in 0.007874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_down.png
-  artifactKey: Guid(7882ac1dcab7a194ebe99d7d338c053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_down.png using Guid(7882ac1dcab7a194ebe99d7d338c053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8840b610c67156ef302467fcc9a0da') in 0.007656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_up.png
-  artifactKey: Guid(11eaa9f4f73aeb248921dd15ce537f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_up.png using Guid(11eaa9f4f73aeb248921dd15ce537f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21332a2f915a61642719d4b84554573') in 0.010815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_left.png
-  artifactKey: Guid(8d15536d3f1f2a3489020ddb892aa2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_left.png using Guid(8d15536d3f1f2a3489020ddb892aa2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c2730fb8713eb0a383720f70b9b488') in 0.007872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_right.png
-  artifactKey: Guid(cbc272ab67a6bd94da126c47f62eb6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_right.png using Guid(cbc272ab67a6bd94da126c47f62eb6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c3592790a0c42e0d8edd3cc4303edc') in 0.007845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_front.png
-  artifactKey: Guid(4681e222d05fd4347b8525f407bb62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_front.png using Guid(4681e222d05fd4347b8525f407bb62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55819bc443fdd7f6b203ad1d0ad0983') in 0.008143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010854 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.png
-  artifactKey: Guid(9183c8173b34a5741a60673a672347cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.png using Guid(9183c8173b34a5741a60673a672347cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f548ea2760a00fb3b5ae91ba93271bd') in 0.006427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_left.png
-  artifactKey: Guid(3747ea63f013cdd478a366edd0fcdc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_left.png using Guid(3747ea63f013cdd478a366edd0fcdc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84219f4b4299a14c23707f024c0de5a8') in 0.007536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_back.png
-  artifactKey: Guid(d99d23b7d55d3d643b3723f62b0c3b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap_back.png using Guid(d99d23b7d55d3d643b3723f62b0c3b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a495895aca564c6c3999308415c90d34') in 0.006295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap.cubemap
-  artifactKey: Guid(b30035c21f53ad04981ddd751ed608a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap.cubemap using Guid(b30035c21f53ad04981ddd751ed608a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5680869e5b6bb24a6060a5c34df0ad1a') in 0.230344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.265900 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap.cubemap
-  artifactKey: Guid(995258c42c653784bbcdeda61e24002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap.cubemap using Guid(995258c42c653784bbcdeda61e24002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c9e02d41a593ba7330ab3ca1a4bf23') in 0.228516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_down.png
-  artifactKey: Guid(3ddd9947dcae7c14cb42a3df8d1a5dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_down.png using Guid(3ddd9947dcae7c14cb42a3df8d1a5dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367fa9f79fc565a06619e5b6447527c1') in 0.007046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_back.png
-  artifactKey: Guid(e0542c8851c689547bb3a6f78e9b5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_back.png using Guid(e0542c8851c689547bb3a6f78e9b5845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e9dc6688a815f863d9cdc0162e4eff') in 0.007333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_front.png
-  artifactKey: Guid(7bcf5c7e04de167409e5b6afd758bb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_front.png using Guid(7bcf5c7e04de167409e5b6afd758bb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a455742f849d3395dae70eeb362fa21') in 0.005650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap.cubemap
-  artifactKey: Guid(8fa4fedf13c1a8a44904553ecc5b5a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap.cubemap using Guid(8fa4fedf13c1a8a44904553ecc5b5a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a88b220399a95e84929d73ed9525090') in 0.224062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_right.png
-  artifactKey: Guid(66d7c927b0f788d4fb3a1c12b15fdcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_right.png using Guid(66d7c927b0f788d4fb3a1c12b15fdcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2a23a548577caa253cb53bf4f11ffd') in 0.007346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_left.png
-  artifactKey: Guid(f1a53ac3fabab2443aa74074f37a0650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_left.png using Guid(f1a53ac3fabab2443aa74074f37a0650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b085315a7f48064601ade962a532794') in 0.006663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_front.png
-  artifactKey: Guid(d54e45415dea1734eab7c4e9990264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_front.png using Guid(d54e45415dea1734eab7c4e9990264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47062664118de4d88d1ed2579b1d46e2') in 0.015797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_up.png
-  artifactKey: Guid(6b733c8b4166d1748bb52a221fe45618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_up.png using Guid(6b733c8b4166d1748bb52a221fe45618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df16aea59373c64ad763aca470dfef5d') in 0.008874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_right.png
-  artifactKey: Guid(dead6ae1c3ae9ac44b05f135de3d58cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_right.png using Guid(dead6ae1c3ae9ac44b05f135de3d58cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eda572d4aaf48120d84173b38d714f') in 0.006067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_up.png
-  artifactKey: Guid(81862312e363d5548903cdb0d34a93ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_up.png using Guid(81862312e363d5548903cdb0d34a93ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0e5603a58b283593ddd35bd264b46d') in 0.007176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_up.png
-  artifactKey: Guid(aea3686eb786ed74a987296077388968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_up.png using Guid(aea3686eb786ed74a987296077388968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bc5f56e3e1a4391fa8266d9a87d4cc') in 0.005524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_right.png
-  artifactKey: Guid(af892a80d6997c243a3fa15640a841d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_right.png using Guid(af892a80d6997c243a3fa15640a841d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f578178da97cb688a9c0b66e1e1e14b') in 0.007516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_back.png
-  artifactKey: Guid(f6ac85863725c724494103bfc8dc111c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_back.png using Guid(f6ac85863725c724494103bfc8dc111c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bc4486d96c96a028e9e6dd6f3e2911') in 0.007820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_left.png
-  artifactKey: Guid(511b7abba6c662c40a0db075afdeeba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_left.png using Guid(511b7abba6c662c40a0db075afdeeba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3009be28c602f721e41c79c4773941bd') in 0.006965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_left.png
-  artifactKey: Guid(8642b1410a7fe114998fa108e1f7f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_left.png using Guid(8642b1410a7fe114998fa108e1f7f511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc8218fac8724b7ef0ed18a83e2289d') in 0.008195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_back.png
-  artifactKey: Guid(b4ccf83220ab6a841a75c3f6ed87b039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_back.png using Guid(b4ccf83220ab6a841a75c3f6ed87b039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825d546b56ac6bec8f230bd469bcf670') in 0.008106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_up.png
-  artifactKey: Guid(8cf7bf24e6050624db28799a75b37830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_up.png using Guid(8cf7bf24e6050624db28799a75b37830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbfc257c255dd2bd199dc3d8a759082') in 0.006743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.png
-  artifactKey: Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.png using Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c49ddfe57e8801d31ec13ddfe44cd9') in 0.005358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_left.png
-  artifactKey: Guid(32755347f2e8a44479cdb0df5bbed6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_left.png using Guid(32755347f2e8a44479cdb0df5bbed6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ad0d1f101320d98ccce0a392db960c') in 0.006165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_back.png
-  artifactKey: Guid(e0cda858e7f614546971d51ec208b338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_back.png using Guid(e0cda858e7f614546971d51ec208b338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059f1afb927ff93c1664ae6884b4228c') in 0.012745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_right.png
-  artifactKey: Guid(343343b421320874cb24b5fbd9336cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_right.png using Guid(343343b421320874cb24b5fbd9336cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61756b674ffcd786fb326f79e2827ade') in 0.008036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_down.png
-  artifactKey: Guid(02d4a4399e8152b41b7f44f1777b82fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_down.png using Guid(02d4a4399e8152b41b7f44f1777b82fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0d536bc684bff734a84fcbde5cad34') in 0.005679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap.cubemap
-  artifactKey: Guid(6b15d921064ff3946a766fa4b8433080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap.cubemap using Guid(6b15d921064ff3946a766fa4b8433080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e034497a07909bc21468d4188974459') in 0.259114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_up.png
-  artifactKey: Guid(13c455289785d924bbcd1bdf63676307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_up.png using Guid(13c455289785d924bbcd1bdf63676307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8e0952f69189ad9e1c8407031bdf92') in 0.007815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_down.png
-  artifactKey: Guid(e19faddf1ebd4f547a09cb46b6b3be0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_down.png using Guid(e19faddf1ebd4f547a09cb46b6b3be0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b38700a3738e3f2054b9d1bff1349c') in 0.006211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_right.png
-  artifactKey: Guid(d533b63a73a0593468356a0aae73b209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_right.png using Guid(d533b63a73a0593468356a0aae73b209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879cf43dc9d1fce53d666c577b32b898') in 0.006031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_back.png
-  artifactKey: Guid(c9e944a935de303408627b0f0076d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_back.png using Guid(c9e944a935de303408627b0f0076d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7350d26cce3523689e8676aa6ffb5fbb') in 0.005619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_back.png
-  artifactKey: Guid(a338e8b256622b94d8c8503e7d7091b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_back.png using Guid(a338e8b256622b94d8c8503e7d7091b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97763f8d66e2d4ba28f2b792bd1c060d') in 0.006090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_front.png
-  artifactKey: Guid(6413e41406a0ee5408f4e8a51c7b1290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_front.png using Guid(6413e41406a0ee5408f4e8a51c7b1290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933e82f4a77b9f983d224493464fb484') in 0.005658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap.cubemap
-  artifactKey: Guid(dc383fcb324f6734e9aa57fbe7fb8533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap.cubemap using Guid(dc383fcb324f6734e9aa57fbe7fb8533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95c58e3f5477070a181b609287324bd') in 0.227834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_back.png
-  artifactKey: Guid(5e21b35afb9f059418e1a8ee47f65382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_back.png using Guid(5e21b35afb9f059418e1a8ee47f65382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6466bd4096d3aebd1f0d9bd6f99905de') in 0.006298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png
-  artifactKey: Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png using Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e73c2c55c4f9a8cb1ee7c4612ec0c3') in 0.006040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap.cubemap
-  artifactKey: Guid(0698dbe339272fb429c6722ca4423bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap.cubemap using Guid(0698dbe339272fb429c6722ca4423bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70193f0245e54e6179fd9eef10c600e') in 0.237006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png
-  artifactKey: Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png using Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b95bdfc0dd2b3a7f0add9a80b9d2a66') in 0.005313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap.cubemap
-  artifactKey: Guid(c41e0db1e4f41b64e9c1540660bc9036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap.cubemap using Guid(c41e0db1e4f41b64e9c1540660bc9036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0df545696ab9aa3fea54c13047a626') in 0.223048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap.cubemap
-  artifactKey: Guid(002c4ae081facae49b8d52962f0b32af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap.cubemap using Guid(002c4ae081facae49b8d52962f0b32af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd108192b339de0b80bc0c77b40f3af63') in 0.213436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_front.png
-  artifactKey: Guid(df1d35a94f232c743bcf1e26626cf819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Moonless_Cubemap_front.png using Guid(df1d35a94f232c743bcf1e26626cf819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e823a11de157cefa254e56e42afb6da') in 0.006740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_front.png
-  artifactKey: Guid(546927bee9aa28046a0cca5cafdd4157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_front.png using Guid(546927bee9aa28046a0cca5cafdd4157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c3649ca5e2d9e8ee83eb692aad4e15') in 0.007581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_left.png
-  artifactKey: Guid(014727d82348f1a4f8175752fb91f720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_left.png using Guid(014727d82348f1a4f8175752fb91f720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17eaaa265c7fba1ae07a966dc74c7d3c') in 0.005196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_up.png
-  artifactKey: Guid(0d371d958e6fe89419bfb8f6a4cf5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_up.png using Guid(0d371d958e6fe89419bfb8f6a4cf5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3268e91e034a2fb1d0bf4bcdb0723cd') in 0.006637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_right.png
-  artifactKey: Guid(d29681cd30115eb43932f180434489fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_right.png using Guid(d29681cd30115eb43932f180434489fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dbf1de087a94ccaec509e68ea5da0f') in 0.007764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_down.png
-  artifactKey: Guid(81843544bdbcf7544a4807db93d3f72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap_down.png using Guid(81843544bdbcf7544a4807db93d3f72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb9d81321b50da59ed5e1a6108438a2') in 0.006600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap.cubemap
-  artifactKey: Guid(467e99ebe4fb3364fb42faadeb1d8ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap.cubemap using Guid(467e99ebe4fb3364fb42faadeb1d8ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d650789b7831cd530b1177a11503bd') in 0.227819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_down.png
-  artifactKey: Guid(e0ba42174e4a6494594f41b2d8228d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_down.png using Guid(e0ba42174e4a6494594f41b2d8228d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c2f494f963423ba6dfecf2b3d49ebe') in 0.012155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_left.png
-  artifactKey: Guid(52d0574b33ad80642b582b6b905a5931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_left.png using Guid(52d0574b33ad80642b582b6b905a5931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470a031e3490ff8852a5f0a6ab2d34e5') in 0.006456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_left.png
-  artifactKey: Guid(72df2cd304d1f394a9d802d5e321e61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_left.png using Guid(72df2cd304d1f394a9d802d5e321e61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa16a7894efe914ea9316d3dba56a997') in 0.008570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_back.png
-  artifactKey: Guid(a1d096d5e6646fc43b0fda1d4187a9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_back.png using Guid(a1d096d5e6646fc43b0fda1d4187a9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bd2996e51e05b98c851eb24335e479') in 0.007116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap.cubemap
-  artifactKey: Guid(bb40da361e28bea40b8bd5b31d99cf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap.cubemap using Guid(bb40da361e28bea40b8bd5b31d99cf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9992c9b08eef3222b2950ce87881e7ab') in 0.228152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_up.png
-  artifactKey: Guid(f72665e7850ff6f489e1abb468ca3357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_up.png using Guid(f72665e7850ff6f489e1abb468ca3357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c738bfb2cd84a290ab521e98b72c5af') in 0.006148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png
-  artifactKey: Guid(97c83ef8555216848ba4f98a7496a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png using Guid(97c83ef8555216848ba4f98a7496a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d82c904221317766eed80d0bc810a40') in 0.008732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_up.png
-  artifactKey: Guid(b5f9d276d27d022429122ae306a99fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_up.png using Guid(b5f9d276d27d022429122ae306a99fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d9410766c98e3350ce4a8602fb9129') in 0.005940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_front.png
-  artifactKey: Guid(042e15c6000e7094b9614a6572eaf114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_front.png using Guid(042e15c6000e7094b9614a6572eaf114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7679a5e21501569548838936ecb3c26') in 0.008193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_back.png
-  artifactKey: Guid(053862ed1dc452242a15c437adaee625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_back.png using Guid(053862ed1dc452242a15c437adaee625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3f09acbe8b82fca0999cc068b93f57') in 0.007594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png
-  artifactKey: Guid(99b254ad4e7668d419be526ebb66b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png using Guid(99b254ad4e7668d419be526ebb66b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ef6b1bcc6c9580ae77b9ac71c41c8c') in 0.007270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_back.png
-  artifactKey: Guid(8328d7c40f1d37140b95d0d9f4d7111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_back.png using Guid(8328d7c40f1d37140b95d0d9f4d7111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05869d57439eb89ed870cb5311319f6e') in 0.005786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_front.png
-  artifactKey: Guid(c3548036d9c17034db3cbf768d13219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_front.png using Guid(c3548036d9c17034db3cbf768d13219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e78cf7135536b4d0039b91e2a51948e') in 0.006596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_down.png
-  artifactKey: Guid(3eba882489794394480a0e3fc9f25117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Cubemap_down.png using Guid(3eba882489794394480a0e3fc9f25117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3507631788cbe6e5c6e0ec8a17d87df2') in 0.006384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.png
-  artifactKey: Guid(323f1ea1bce78fe4c90b2286fa1997e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.png using Guid(323f1ea1bce78fe4c90b2286fa1997e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aa74836c6961fc10d492b5b5275f9f') in 0.006049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_left.png
-  artifactKey: Guid(4c4ad0412550ea84b8ec88983ba660d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_left.png using Guid(4c4ad0412550ea84b8ec88983ba660d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81baa79459b5a4089f349b21eb6d73a9') in 0.006206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_right.png
-  artifactKey: Guid(e909efe79f40123499bc4c0710242136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_right.png using Guid(e909efe79f40123499bc4c0710242136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e02d560d5735134ed6cd6cb950897e') in 0.007423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_back.png
-  artifactKey: Guid(87138e7a891fd3046849f2e76c1206b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_back.png using Guid(87138e7a891fd3046849f2e76c1206b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44ae718695c5b6d092b0f3a31270b9c') in 0.005801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_left.png
-  artifactKey: Guid(fe6393c04bf937a4aad6c22ba34b3c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_left.png using Guid(fe6393c04bf937a4aad6c22ba34b3c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee86280179b7cac499164030926498e') in 0.006465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_right.png
-  artifactKey: Guid(e4f3a493b7f435a4d847b7a0f2d6427a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_right.png using Guid(e4f3a493b7f435a4d847b7a0f2d6427a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c75ae62309e2b305abc3b28d20e2553') in 0.006034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_left.png
-  artifactKey: Guid(c2bfb394ae4aebc41bea4ea526108a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_left.png using Guid(c2bfb394ae4aebc41bea4ea526108a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f1a2fe51d8b9c3a06c9ca4e5857e5a') in 0.006847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_up.png
-  artifactKey: Guid(166eb4492b246544b98bba2bae5321f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Rainy_Cubemap_up.png using Guid(166eb4492b246544b98bba2bae5321f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991835349b77ede4d83ed8f9a398590d') in 0.010430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_down.png
-  artifactKey: Guid(bd047541345c68145ba0e6bacb5520fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_down.png using Guid(bd047541345c68145ba0e6bacb5520fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0198bea3e466b7acb868982c79116efe') in 0.010482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_right.png
-  artifactKey: Guid(65247aa78283304418e233f6d7983a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Sunless_Cubemap_right.png using Guid(65247aa78283304418e233f6d7983a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66015a717ef17e688cd5720a1b6975c') in 0.007857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_front.png
-  artifactKey: Guid(3af64c6c8b148e742a850fa606a286b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap_front.png using Guid(3af64c6c8b148e742a850fa606a286b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc327eec1051cea056c04eaac97f6e2') in 0.005249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png
-  artifactKey: Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png using Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67826664d0bb3c0cd545a33aabbec897') in 0.005467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_up.png
-  artifactKey: Guid(d6448ae109ff2624191009c1720325a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_up.png using Guid(d6448ae109ff2624191009c1720325a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad48c5d416bee0d466d74ba4c2b8f320') in 0.005195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_front.png
-  artifactKey: Guid(6d8406ccba0700c4886ae844afb80f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunset_Cubemap_front.png using Guid(6d8406ccba0700c4886ae844afb80f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e09e7b6742501c6e22b262e0a54bafa') in 0.008723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap.cubemap
-  artifactKey: Guid(896b9da9b4029944fb571a2313d94de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunset_Cubemap.cubemap using Guid(896b9da9b4029944fb571a2313d94de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c22a82826cadd07bdcbd4e492361023') in 0.227947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_front.png
-  artifactKey: Guid(c5bc5ddeff88f984182b140843037d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Moonless_Cubemap_front.png using Guid(c5bc5ddeff88f984182b140843037d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e9f21b9e908ba2c57fd7ecd926e610') in 0.006462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_up.png
-  artifactKey: Guid(d8939e90d83381342b380f950e2728fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap_up.png using Guid(d8939e90d83381342b380f950e2728fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52598ac0c54ee17438ff4c5f84e038ea') in 0.006741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.492244 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_down.png
-  artifactKey: Guid(3ff2c9760785dd641953e7ccd7baa5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_down.png using Guid(3ff2c9760785dd641953e7ccd7baa5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bd6058ff9262ef3e4f000164aad164') in 0.005520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_up.png
-  artifactKey: Guid(eeaad692c5b23d149b53932062b4da5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_up.png using Guid(eeaad692c5b23d149b53932062b4da5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7bfde923afdeb51f13100695dc72d7') in 0.005692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_right.png
-  artifactKey: Guid(de4e7e1ddede5d741a529f954761b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Cubemap_right.png using Guid(de4e7e1ddede5d741a529f954761b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf552954d031811a2f3be547fbc44e3') in 0.005274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_down.png
-  artifactKey: Guid(1c80ea766d372ae4d88b370aac8f041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_down.png using Guid(1c80ea766d372ae4d88b370aac8f041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7b60a244871e70fdc2acf8ca360c86') in 0.005371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_front.png
-  artifactKey: Guid(21ee7f7028576cc45a7362b1eee364f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_front.png using Guid(21ee7f7028576cc45a7362b1eee364f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d22460ddbfd66dfe46fc0e05cc7da6') in 0.006905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_back.png
-  artifactKey: Guid(21f443f7e34cecd4cab409d082d9e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_back.png using Guid(21f443f7e34cecd4cab409d082d9e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a0cb0eaff64c7bffc35f5a7f4b6264') in 0.005991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061926 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_left.png
-  artifactKey: Guid(e287a858561ef93429dae77f90849ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_left.png using Guid(e287a858561ef93429dae77f90849ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf01ae2bfb63d471fea38952ba8e9c3') in 0.007499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_left.png
-  artifactKey: Guid(1f3d7c575615c0347aa51d0bc22f1567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_left.png using Guid(1f3d7c575615c0347aa51d0bc22f1567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae9bcc44b009fb8b1f36cd898148543') in 0.005822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_right.png
-  artifactKey: Guid(b8edd9eab84ec2a4984293d49b1028ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_right.png using Guid(b8edd9eab84ec2a4984293d49b1028ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e152ab54db152c9352e5f927b139737') in 0.006081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_front.png
-  artifactKey: Guid(077e264c78cc46d49923b5aff986242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_front.png using Guid(077e264c78cc46d49923b5aff986242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbf8b0121e414ca816f61812c4b7c11') in 0.005867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_back.png
-  artifactKey: Guid(fd0a573276626584da3f1293fcd7f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_back.png using Guid(fd0a573276626584da3f1293fcd7f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2db9e3798e3ea2bb19469e6888ae243') in 0.005353 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Mountain Rocks/Mesh/Mountain Rocks 1_LOD 2.FBX
+  artifactKey: Guid(17749c93898846b4086940504f53072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Mountain Rocks/Mesh/Mountain Rocks 1_LOD 2.FBX using Guid(17749c93898846b4086940504f53072b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b93ec372f11e7741275672b63547e2a') in 0.011203 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_down.png
-  artifactKey: Guid(c952eb03fe2ac9a42ac3c5ac822c516a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_down.png using Guid(c952eb03fe2ac9a42ac3c5ac822c516a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea983a45f2d59c5b2e9cbf58dc8dc5d') in 0.006072 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Mesh/MRL_Generic Cliff 6_LOD 2.FBX
+  artifactKey: Guid(f1400f11f35005e48a2287b1770446bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Mesh/MRL_Generic Cliff 6_LOD 2.FBX using Guid(f1400f11f35005e48a2287b1770446bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6177d1a2b28c53662b526ba740899df') in 0.011859 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000042 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_right.png
-  artifactKey: Guid(0123ad43ba83faf47a3fa02276ba03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_right.png using Guid(0123ad43ba83faf47a3fa02276ba03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759075e8580964fb4db5a8cf2cbd6bed') in 0.007984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap.cubemap
-  artifactKey: Guid(6e79ade78c22a8f4d8a1383480696763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap.cubemap using Guid(6e79ade78c22a8f4d8a1383480696763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038c0c861b3edf08b10ca1516aeb1695') in 0.268959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.194250 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_up.png
-  artifactKey: Guid(8f817f454fe4cdc4aabf11e6505cfc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_up.png using Guid(8f817f454fe4cdc4aabf11e6505cfc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb807abe311fa9b47195b7bd0a2494a0') in 0.007426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_left.png
-  artifactKey: Guid(a15506ae0e4838149b25c00cd8af36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_left.png using Guid(a15506ae0e4838149b25c00cd8af36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedc2b5cb689baa963b28d2309457608') in 0.006290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_left.png
-  artifactKey: Guid(a9e6ef292edb96e418e6e0fd44a2ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_left.png using Guid(a9e6ef292edb96e418e6e0fd44a2ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2db480beb84f46a9f5fc3fb9a6be3f') in 0.005060 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_High Cliff_Large/Mesh/MRL_High Cliff_Large_LOD 2.FBX
+  artifactKey: Guid(0bb7b35ee8a54cf4aa694447b1e6a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_High Cliff_Large/Mesh/MRL_High Cliff_Large_LOD 2.FBX using Guid(0bb7b35ee8a54cf4aa694447b1e6a9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd972671c216905de41f9ccaa1460a684') in 0.009093 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_right.png
-  artifactKey: Guid(e4051bfa471d28d49bcbdd95f4265a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_right.png using Guid(e4051bfa471d28d49bcbdd95f4265a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c837c9ed00f125f33db1bbfbdebe2d4b') in 0.005371 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/Mesh/MRL_Generic Cliff 1.fbx
+  artifactKey: Guid(9e38a46dc4d2dba4593e34f57c398ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/Mesh/MRL_Generic Cliff 1.fbx using Guid(9e38a46dc4d2dba4593e34f57c398ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ab790e87af2ebd3b8847b5ebfec7d8') in 0.035711 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap.cubemap
-  artifactKey: Guid(d1026acb082b4ac4f920e40e4fb0856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap.cubemap using Guid(d1026acb082b4ac4f920e40e4fb0856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f77cc7e1bacc32c9218f68267aaf7d4') in 0.234360 seconds 
+  Time since last request: 0.000118 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Mesh/MRL_Generic Cliff 6_LOD 1.FBX
+  artifactKey: Guid(eeca12916f3279b48a3ea8532cb0a392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/Mesh/MRL_Generic Cliff 6_LOD 1.FBX using Guid(eeca12916f3279b48a3ea8532cb0a392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66be1baaecff6899983008a1e92a519') in 0.009945 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_up.png
-  artifactKey: Guid(5f5a9db8167fcea43a8ee471b4a6045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_up.png using Guid(5f5a9db8167fcea43a8ee471b4a6045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bf5ce6d1a326ba2033bdae41a540b8') in 0.009124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_up.png
-  artifactKey: Guid(eb9cbd3937dcffc47a72742793e246bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_up.png using Guid(eb9cbd3937dcffc47a72742793e246bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aaa7f36d2fb9f5fc5f584542ef230f') in 0.010486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLFGenericRockGrass_Normal.png
-  artifactKey: Guid(eb27eae67d189cb499cceefbbf8d8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLFGenericRockGrass_Normal.png using Guid(eb27eae67d189cb499cceefbbf8d8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135ed2c22143e3ed2530f9d57bf43636') in 0.026733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/MRL_Generic Cliff 6_D.png
-  artifactKey: Guid(8a2245698715dd242b5da14962a273e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 6/MRL_Generic Cliff 6_D.png using Guid(8a2245698715dd242b5da14962a273e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f82e7356dc62704d0e259e368b992b') in 0.006946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_High Cliff_Large/MRL_High Cliff_Large_D.png
-  artifactKey: Guid(ad3c72ece33231a41a06fed35df523fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_High Cliff_Large/MRL_High Cliff_Large_D.png using Guid(ad3c72ece33231a41a06fed35df523fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471146037a4c98c17f751cf6b3c765d9') in 0.008814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumA_DiffuseMobile.png
-  artifactKey: Guid(417b8b64d99ffa444ab95cdcdb238a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumA_DiffuseMobile.png using Guid(417b8b64d99ffa444ab95cdcdb238a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8d8b942920b6c13ec17b8e14cd9617') in 0.006653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/MRL_Generic Cliff 1_D.png
-  artifactKey: Guid(fb54d28ab224027488cbbd6ab53e2d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 1/MRL_Generic Cliff 1_D.png using Guid(fb54d28ab224027488cbbd6ab53e2d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f600c026d1d55ef795cf043296e1cab7') in 0.005755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 2/MRL_Generic Cliff 2_D.png
-  artifactKey: Guid(9d97d23e73e5d6144a40a76c77619aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 2/MRL_Generic Cliff 2_D.png using Guid(9d97d23e73e5d6144a40a76c77619aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef39fcb9304cba1a031b192c5ba04a1') in 0.008869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_front.png
-  artifactKey: Guid(b0e311d9b1b419941b0babb5ba3ceb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_front.png using Guid(b0e311d9b1b419941b0babb5ba3ceb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115bc27e70d0b14149ccacc8eeae0130') in 0.006178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_AO.png
-  artifactKey: Guid(b3b9ae7d4d03f6e49a56ea879899049e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_AO.png using Guid(b3b9ae7d4d03f6e49a56ea879899049e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eded989df18f31ef0a7cd133c0e1a2db') in 0.008568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap.cubemap
-  artifactKey: Guid(e794d818da7f2e84580cb524059c2772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap.cubemap using Guid(e794d818da7f2e84580cb524059c2772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54de88cc921a16b4d65904dd37c19aaf') in 0.235474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.terrain-tools/Editor/Icons/LayersEyedropper.png
-  artifactKey: Guid(a01e9405cede59345aae085cba1d3e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.terrain-tools/Editor/Icons/LayersEyedropper.png using Guid(a01e9405cede59345aae085cba1d3e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2088fd78a985bd816a062d767fddcd') in 0.005119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 3/MRL_Generic Cliff 3_D 2.png
-  artifactKey: Guid(1322ab43c0f678a4da447f2e67ac3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 3/MRL_Generic Cliff 3_D 2.png using Guid(1322ab43c0f678a4da447f2e67ac3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ca4f47893f72d41fc24c84c59c8843') in 0.006164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_up.png
-  artifactKey: Guid(68ed1953a000a7744adfde23d5aba737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_up.png using Guid(68ed1953a000a7744adfde23d5aba737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fd88656ba724217402afaecd9bdda1') in 0.005629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_left.png
-  artifactKey: Guid(a07e393a31bd98042be3a8796358ed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_left.png using Guid(a07e393a31bd98042be3a8796358ed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1254c8b830dc7a5a746aeab2be9b3af4') in 0.007086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_down.png
-  artifactKey: Guid(aa500d95bc3879d4c82b1763ee51f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_down.png using Guid(aa500d95bc3879d4c82b1763ee51f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80954eab2290e995f8c7384174bfed24') in 0.005823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_up.png
-  artifactKey: Guid(0ea9881999d66544aa0ac1415c929033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_up.png using Guid(0ea9881999d66544aa0ac1415c929033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee069f817262c03ed34ad72cc7c1aa5') in 0.005405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_down.png
-  artifactKey: Guid(613ad9ff0287a7c4d86a5d958e4313b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_down.png using Guid(613ad9ff0287a7c4d86a5d958e4313b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd63cd83a0211e51411e2ff505fb8d5') in 0.005874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_right.png
-  artifactKey: Guid(30a536d4e8ace7f48af4f6b10160d04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_right.png using Guid(30a536d4e8ace7f48af4f6b10160d04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b09a5f6ca843c609d76aaea738b196') in 0.005783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_right.png
-  artifactKey: Guid(76db529d85fbebe458b83d052943d57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_right.png using Guid(76db529d85fbebe458b83d052943d57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffd44915416cc7628dc14ae9f8efe93') in 0.005258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_front.png
-  artifactKey: Guid(73b8b1e94ef7fd841aaca0854f7252ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_front.png using Guid(73b8b1e94ef7fd841aaca0854f7252ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f753e70e26c046bc3372ba96495237d4') in 0.005383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 2/MRL_Rock_Medium 2_D.png
-  artifactKey: Guid(7f45c2752997cc74f8eeb87a8f48af66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 2/MRL_Rock_Medium 2_D.png using Guid(7f45c2752997cc74f8eeb87a8f48af66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd877b29d929c5ce44baee776d9ad71e0') in 0.005659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Hight.tif
-  artifactKey: Guid(ace68ecd427fd794f9857b3d39e5ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Hight.tif using Guid(ace68ecd427fd794f9857b3d39e5ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c67aed0d3e19eebd835bed9cb2b746c') in 0.172951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/MRL_Rock_Medium 1_D.png
-  artifactKey: Guid(4d1f6b022f6315d4a9e3475e3611a13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium 1/MRL_Rock_Medium 1_D.png using Guid(4d1f6b022f6315d4a9e3475e3611a13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb1c3ff1d75c99988d6165fe724740a') in 0.010040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_front.png
-  artifactKey: Guid(cba7f06c484374d4294367a2f24ef4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_front.png using Guid(cba7f06c484374d4294367a2f24ef4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4b7c73a7e65ef4ccdd2227b44a77c7') in 0.006451 seconds 
+  Time since last request: 0.000098 seconds.
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/Mesh/Low Rock_Medium.fbx
+  artifactKey: Guid(38bcbcc985fa293499178d4c4dd68f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/Mesh/Low Rock_Medium.fbx using Guid(38bcbcc985fa293499178d4c4dd68f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d109f96dde657cb6fac54ce507e1e7') in 0.040913 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000056 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Albedo.png
-  artifactKey: Guid(7193a6787ada0c749b5388d7b75a3c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Albedo.png using Guid(7193a6787ada0c749b5388d7b75a3c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cce4cfe2b96d20ed486c670bd05f71') in 0.009792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLFGenericRockGrass_NormalB.png
-  artifactKey: Guid(ea165a9df53f5814a8ca48083f1c35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLFGenericRockGrass_NormalB.png using Guid(ea165a9df53f5814a8ca48083f1c35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96104a0bcf1da4ec76fe08aff58f8cc9') in 0.018643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Specular.tif
-  artifactKey: Guid(a0131355e59940844b7110d704f71fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Specular.tif using Guid(a0131355e59940844b7110d704f71fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416926d94a8bb8606042145da277439f') in 0.009954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_down.png
-  artifactKey: Guid(4e02c0aa4e5d3bb43a2b009383b40603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_down.png using Guid(4e02c0aa4e5d3bb43a2b009383b40603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d3dc9cde1000f465aee8278ea2e921') in 0.010988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Diffuse.png
-  artifactKey: Guid(4e378473470043248af9eee2da286ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_Diffuse.png using Guid(4e378473470043248af9eee2da286ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fa685483dc08c3f0602e66be95a118') in 0.009662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_front.png
-  artifactKey: Guid(528c16267a381804d8f60399ed04802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_front.png using Guid(528c16267a381804d8f60399ed04802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfed77da4d20e980c26bc2ae1023679') in 0.004915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/MRL_Low Rock_Medium_D - A.png
-  artifactKey: Guid(0f30bff9ce1867649b449a537dc9b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low Rock_Medium/MRL_Low Rock_Medium_D - A.png using Guid(0f30bff9ce1867649b449a537dc9b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ae6b32c146d6e56e73f5f4d25d0e5e') in 0.005907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_AO.png
-  artifactKey: Guid(98f193f3cc2292b47a767ad077e64146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLFGenericRockGrass_AO.png using Guid(98f193f3cc2292b47a767ad077e64146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d0c80df91e41231a1d0aecc7afc5ea') in 0.007655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_back.png
-  artifactKey: Guid(4676adb9ddb10894aa1ab60ff29414f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_back.png using Guid(4676adb9ddb10894aa1ab60ff29414f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ff6da51faa82db8124f6e2f695bcb2') in 0.006384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_DiffueMobile.png
-  artifactKey: Guid(cd43c0f6715209f43bb845a9137affa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_DiffueMobile.png using Guid(cd43c0f6715209f43bb845a9137affa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a5fa67a6ee1dc111c7e5cae38b78fd') in 0.007382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_bucket_BaseColor.png
-  artifactKey: Guid(342a0078d25d742c6a83e5a9f27e1023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_bucket_BaseColor.png using Guid(342a0078d25d742c6a83e5a9f27e1023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c92169cf362aa849fdc417396c427f3') in 0.011409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_Specular.tif
-  artifactKey: Guid(c7670c7503811c543b650293f96c757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_Specular.tif using Guid(c7670c7503811c543b650293f96c757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169c68b7060cf30b3d6ce0ffb986697f') in 0.008266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLRockMediumB_Normal.png
-  artifactKey: Guid(48c982ca184f98c439d8d7b7926af7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/MRLRockMediumB_Normal.png using Guid(48c982ca184f98c439d8d7b7926af7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ebb8b365f5eb51b8ec36e372095d13') in 0.031421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_horiz_beams_Normal.png
-  artifactKey: Guid(a30e25b2ecb0242668e98cbccb2453a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_horiz_beams_Normal.png using Guid(a30e25b2ecb0242668e98cbccb2453a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398710833e4db9a01179297645aea4e3') in 0.008400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_main_supports_Normal.png
-  artifactKey: Guid(43d6fd9763be44c7d8cb51d064747206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_main_supports_Normal.png using Guid(43d6fd9763be44c7d8cb51d064747206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f2384ebd7b9cf841e7628749493050') in 0.009741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_bucket_handle_BaseColor.png
-  artifactKey: Guid(e98acf0a4b1c949bbbf092a90ca2547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_bucket_handle_BaseColor.png using Guid(e98acf0a4b1c949bbbf092a90ca2547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64df253aba94e900040555b194fb813e') in 0.006514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_diag_beams_BaseColor.png
-  artifactKey: Guid(3ae8ec8361e6b4dfdb514951cd5c1af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_diag_beams_BaseColor.png using Guid(3ae8ec8361e6b4dfdb514951cd5c1af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2439c5d679417e79890eac7085d586') in 0.006678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_bucket_handle_Normal.png
-  artifactKey: Guid(805ff854220514649bb201ae5b21f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_bucket_handle_Normal.png using Guid(805ff854220514649bb201ae5b21f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c9e58e1149381f0ce6f2bf55e2c445') in 0.007636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_Diffuse.png
-  artifactKey: Guid(3e95783887475bc478443c161d476639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/MRLRockMediumB_Diffuse.png using Guid(3e95783887475bc478443c161d476639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0092758bd6b53aea6970f7c8b2a52a') in 0.006406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_AO.png
-  artifactKey: Guid(236b0004fd65e4246b78c5245ee14ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_AO.png using Guid(236b0004fd65e4246b78c5245ee14ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d90c5d76d70d5e6e2b269a219e8603') in 0.008837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_top_roof_BaseColor.png
-  artifactKey: Guid(f0fa46e96b8404ad290295ad7f9c93dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_top_roof_BaseColor.png using Guid(f0fa46e96b8404ad290295ad7f9c93dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c2b34f6d8076d5e8f23d4841035a99') in 0.008238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Albedo.png
-  artifactKey: Guid(589955eae394ba440974cdd920d45700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Albedo.png using Guid(589955eae394ba440974cdd920d45700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f134a2b82f50033f5d96da13140cea5c') in 0.008428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_top_roof_Normal.png
-  artifactKey: Guid(d48aa125e61ee47d4be20e55a03fbfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_top_roof_Normal.png using Guid(d48aa125e61ee47d4be20e55a03fbfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4601e92b10d4da67ad7ba4d6b9d34f9') in 0.009459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_under_roof_BaseColor.png
-  artifactKey: Guid(bfa2ae908a6d445538b3944ada1fb29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_under_roof_BaseColor.png using Guid(bfa2ae908a6d445538b3944ada1fb29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f5fe82b8ff1c1d24f61f140a3e212c') in 0.017405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_main_wall_well_Normal.png
-  artifactKey: Guid(e1f9c6a57b4034208acca41584dea4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_main_wall_well_Normal.png using Guid(e1f9c6a57b4034208acca41584dea4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c98c7a29ba03206156bed4848d1a22') in 0.009104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_diag_beams_Normal.png
-  artifactKey: Guid(6c1f8a2784d4c4d87908fc2033466fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_diag_beams_Normal.png using Guid(6c1f8a2784d4c4d87908fc2033466fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd85574d9d651f9179d4f8b7a4d0ccc') in 0.010117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_pulley_pin_BaseColor.png
-  artifactKey: Guid(c1cb7553a1fab42909d26ff989e75ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_pulley_pin_BaseColor.png using Guid(c1cb7553a1fab42909d26ff989e75ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accea69f83a2f3fc567a52ae0fc73b62') in 0.006674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_chain_links_BaseColor.png
-  artifactKey: Guid(1d6a6e40e0dbe44a78d46c7a75b7f836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_chain_links_BaseColor.png using Guid(1d6a6e40e0dbe44a78d46c7a75b7f836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20682f466ec37777dd506df06a190835') in 0.008417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_pulley_wheel_BaseColor.png
-  artifactKey: Guid(12ad4327681f04dbda25cc9fea65330d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_pulley_wheel_BaseColor.png using Guid(12ad4327681f04dbda25cc9fea65330d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5782bb777e839aaa117a4061fab04a24') in 0.007179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well.jpg
-  artifactKey: Guid(fa09213a201ad46be8c8f448fdb5c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well.jpg using Guid(fa09213a201ad46be8c8f448fdb5c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce23e9589252472b121eb66ab65637d') in 0.006400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_right.png
-  artifactKey: Guid(ed3bb36cf52f0fc42b747403264ec5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_right.png using Guid(ed3bb36cf52f0fc42b747403264ec5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fac2b2b4826040b522de0d8e2265c60') in 0.005089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_main_wall_well_Height.png
-  artifactKey: Guid(d76a249a6d6274a4384243c24a04ecdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/well/4kd0fr5v6rwg-spooky_old_well/old_well_main_wall_well_Height.png using Guid(d76a249a6d6274a4384243c24a04ecdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0378c76b87956426927f38a9c3293992') in 0.006381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.497664 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Diffuse.png
-  artifactKey: Guid(3deed20a70d7cb94fb39b9e13d57f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Diffuse.png using Guid(3deed20a70d7cb94fb39b9e13d57f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588a3a7dd92d38ef6acbfc771d6bd7aa') in 0.020986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_Diffuse.png
-  artifactKey: Guid(cfb64e1a500bb644eaf3695fc103dee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_Diffuse.png using Guid(cfb64e1a500bb644eaf3695fc103dee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d641a589a2afb23f6e17b4aa820feed') in 0.011136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCaveTop_Normal.png
-  artifactKey: Guid(4fe420bef6a1ff74abb58f7ba0e64b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFCaveTop_Normal.png using Guid(4fe420bef6a1ff74abb58f7ba0e64b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c4bd9872786c14b7b0925ae3fc228c') in 0.024645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_AO.png
-  artifactKey: Guid(184a7985456dc5a40bb2dfebc58d9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCaveTop_AO.png using Guid(184a7985456dc5a40bb2dfebc58d9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629a261a0055d886a70de44188c30029') in 0.017478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_DiffuseMobile.png
-  artifactKey: Guid(b40cc21c4d3b570428e308f2679a2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_DiffuseMobile.png using Guid(b40cc21c4d3b570428e308f2679a2a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6614bdcb5e166ce007279475051ccfdd') in 0.008416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_DiffuseMobile.png
-  artifactKey: Guid(ff57881ea6654f44c993c9a7385bf1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_DiffuseMobile.png using Guid(ff57881ea6654f44c993c9a7385bf1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7722d623d2a82d52fc07dea1daca1576') in 0.013478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_AO.png
-  artifactKey: Guid(e1c5f84b8c1c2524ba29a80ca07f39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffA_AO.png using Guid(e1c5f84b8c1c2524ba29a80ca07f39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143b4b792f3de90effc46da73624df3a') in 0.007469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFLowRockMedium_Normal.png
-  artifactKey: Guid(13221ccc0fe5bdf4ab18a5400ca1dfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFLowRockMedium_Normal.png using Guid(13221ccc0fe5bdf4ab18a5400ca1dfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67af3ac47dbfa854c20bdb40338d01b8') in 0.030494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFRockDetails_Normal.png
-  artifactKey: Guid(2a2c5e7f5082dd740aa37550eabc6727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFRockDetails_Normal.png using Guid(2a2c5e7f5082dd740aa37550eabc6727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd041a17be4e171ff71f4f3bb9242df8a') in 0.010760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_Diffuse.png
-  artifactKey: Guid(c01d51651a1762545b1662376645cb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_Diffuse.png using Guid(c01d51651a1762545b1662376645cb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3e0f2661fc5ff4be43bcd2f6f1ce66') in 0.006509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Models/Haunted Sundanese Traditional House/OBJ/roof_1.jpg
-  artifactKey: Guid(0e6fb46d0ec65440fbb950d7b70e0694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Haunted Sundanese Traditional House/OBJ/roof_1.jpg using Guid(0e6fb46d0ec65440fbb950d7b70e0694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c543810a7d7ff05a3a7af0b5d8323e9') in 0.009519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_DiffuseMobile.png
-  artifactKey: Guid(36581f1fe1a1e6e4fa938d117513f987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_DiffuseMobile.png using Guid(36581f1fe1a1e6e4fa938d117513f987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51481ed291cd051b6a70b1dad2fe39d') in 0.008082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceLeaves_Diffuse.tif
-  artifactKey: Guid(ea25fdb9ef5bb3c408d8c4a59a760f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceLeaves_Diffuse.tif using Guid(ea25fdb9ef5bb3c408d8c4a59a760f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbc79661dc1bda03d6138721a61b779') in 0.006730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffB_Normal2.png
-  artifactKey: Guid(d7e04875a80e35844a5fb5e26103f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFGenericCliffB_Normal2.png using Guid(d7e04875a80e35844a5fb5e26103f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c253c1242441a10e9f7cb2e81924f2b5') in 0.030202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_AO.png
-  artifactKey: Guid(b756c4a84cfc55f438d2947a2a75088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFGenericCliffB_AO.png using Guid(b756c4a84cfc55f438d2947a2a75088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d28b667d6590ac47fa6c6ac5a23c99') in 0.008620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Specular.tif
-  artifactKey: Guid(eb687a1778c19d945a40c5816272c1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFCave_Specular.tif using Guid(eb687a1778c19d945a40c5816272c1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e83c11c3ea8203ac8a5d9a59455a5c0') in 0.010252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_AO.png
-  artifactKey: Guid(49da2760a267e734ea4916d23933b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_AO.png using Guid(49da2760a267e734ea4916d23933b886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df512b7662b2091848e055556bd67bd') in 0.006828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_AO.png
-  artifactKey: Guid(a3835049db2b89742beda3790ef0189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_AO.png using Guid(a3835049db2b89742beda3790ef0189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ec39ea18ab01b7b6373372160253d7') in 0.007088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_Specular.tif
-  artifactKey: Guid(02cf7a0df64665741b74393d9dbe2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFLowRockMedium_Specular.tif using Guid(02cf7a0df64665741b74393d9dbe2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e3122a73548c54a29d54a055f9fa76') in 0.009066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_Specular.tif
-  artifactKey: Guid(cee593f0c582b3e47968ede5871af963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockDetails_Specular.tif using Guid(cee593f0c582b3e47968ede5871af963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f668ec50e228f2212832956caa250825') in 0.006616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFLowRockMedium_Normal2.png
-  artifactKey: Guid(6f6accb1438b18043a291d481576dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/RHEFLowRockMedium_Normal2.png using Guid(6f6accb1438b18043a291d481576dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f80410dc776d58dfc3330f43ae3fda8') in 0.018172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_Specular.tif
-  artifactKey: Guid(5cf822336ca1ebd4cbb6c2afc6df479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/RHEFRockMediumC_Specular.tif using Guid(5cf822336ca1ebd4cbb6c2afc6df479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f2284bc4b1f5b91e8a88ff0eda107c') in 0.008325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Scenes/Terrain Data/ATSG_TerrainSample.asset
-  artifactKey: Guid(af7312ffb38b4c64b846a53b785313e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Scenes/Terrain Data/ATSG_TerrainSample.asset using Guid(af7312ffb38b4c64b846a53b785313e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd6b909f2fe8a0c40f529041ab0eef4') in 0.077567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.401460 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_Albedo.png
-  artifactKey: Guid(699fd2cba0237e24f8c475f4b3f385f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_Albedo.png using Guid(699fd2cba0237e24f8c475f4b3f385f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdcc820a113a9a030403b1226db26c9') in 0.006721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/Haunted Sundanese Traditional House/OBJ/tex_di2ng.jpg
-  artifactKey: Guid(b15a5a8470c584bc1ae95eb2682b69e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Haunted Sundanese Traditional House/OBJ/tex_di2ng.jpg using Guid(b15a5a8470c584bc1ae95eb2682b69e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3672c730fe3e8d4001695f7725a07911') in 0.006249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_Diffuse.png
-  artifactKey: Guid(8e31fbe55c8ce8e4582bda011296cdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Textures/SpruceTrunk_Diffuse.png using Guid(8e31fbe55c8ce8e4582bda011296cdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e666da31e75b0b840a7e756e038f8b1') in 0.005553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/SpruceTrunk_Normal.png
-  artifactKey: Guid(18935532cbe1ff8479d9b1166024c99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Normals/SpruceTrunk_Normal.png using Guid(18935532cbe1ff8479d9b1166024c99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62a655deaf53e3488910eb4c1bdeea5') in 0.009874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027350 seconds.
-  path: Assets/Models/Haunted Sundanese Traditional House/FBX/tex_di2ng.jpg
-  artifactKey: Guid(531f3a93bd1b94ea89d4b37fc48ac1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Haunted Sundanese Traditional House/FBX/tex_di2ng.jpg using Guid(531f3a93bd1b94ea89d4b37fc48ac1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597d6bda9f20d024e5496434c679b5af') in 0.005291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models/Haunted Sundanese Traditional House/FBX/tex_lantai.jpg
-  artifactKey: Guid(64161ac3423e64dc3bfe1d5513684453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Haunted Sundanese Traditional House/FBX/tex_lantai.jpg using Guid(64161ac3423e64dc3bfe1d5513684453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed7c5308dbc2176fff4d55cd1f0a22f') in 0.005698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Models/Haunted Sundanese Traditional House/FBX/texture-sumur.jpg
-  artifactKey: Guid(803a0211307ad4a9a826d46cf50eb275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Haunted Sundanese Traditional House/FBX/texture-sumur.jpg using Guid(803a0211307ad4a9a826d46cf50eb275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d2c3066f253328e67b0ed341c2ab66') in 0.005090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Packages/com.unity.terrain-tools/Editor/TerrainTools/FilterStack/Editor/Images/trash.png
-  artifactKey: Guid(47ca3dccd925d004bb81cf40fdd2bd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.terrain-tools/Editor/TerrainTools/FilterStack/Editor/Images/trash.png using Guid(47ca3dccd925d004bb81cf40fdd2bd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f32946eb6965c28e3c9772840962d8') in 0.004815 seconds 
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 2/Mesh/MRL_Generic Cliff 2.fbx
+  artifactKey: Guid(b15c91f66d38d9b44a8cb25507da4f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 2/Mesh/MRL_Generic Cliff 2.fbx using Guid(b15c91f66d38d9b44a8cb25507da4f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2085330c04ae67a66d3c13488fc1a96f') in 0.037778 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000050 seconds.
-  path: Assets/Models/Haunted Sundanese Traditional House/OBJ/Texturizer/tex_lantai.jpg
-  artifactKey: Guid(2c174e00b07524cb8b39e028489a9828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Haunted Sundanese Traditional House/OBJ/Texturizer/tex_lantai.jpg using Guid(2c174e00b07524cb8b39e028489a9828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6dc8a2cc5e489468817a0fe0ab0548') in 0.004413 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  path: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/Mesh/MRL_Generic Cliff 5_LOD 2.FBX
+  artifactKey: Guid(f12975da44692914bb1c688ddf0bc298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic Cliff 5/Mesh/MRL_Generic Cliff 5_LOD 2.FBX using Guid(f12975da44692914bb1c688ddf0bc298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b30e7d61380e073cbf036b416309784') in 0.009567 seconds 
+========================================================================
+Received Prepare
+Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.001254 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x298547000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Domain Reload Profiling:
+	ReloadAssembly (716ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4069.
+Memory consumption went from 350.4 MB to 349.8 MB.
+Total: 3.056084 ms (FindLiveObjects: 0.144834 ms CreateObjectMapping: 0.075125 ms MarkObjects: 2.684500 ms  DeleteObjects: 0.150792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.001421 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e45b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (805ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4072.
+Memory consumption went from 350.6 MB to 350.0 MB.
+Total: 2.870625 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.045708 ms MarkObjects: 2.450125 ms  DeleteObjects: 0.203417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.001482 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e45b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.4 MB). Loaded Objects now: 4078.
+Memory consumption went from 352.0 MB to 350.6 MB.
+Total: 6.707291 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 1.600084 ms MarkObjects: 4.427083 ms  DeleteObjects: 0.499292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
