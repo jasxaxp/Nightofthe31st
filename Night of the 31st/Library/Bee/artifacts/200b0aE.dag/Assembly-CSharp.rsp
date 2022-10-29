@@ -358,6 +358,7 @@
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs"
 "Assets/MainMenu.cs"
 "Assets/MainStory.cs"
+"Assets/MenuButton.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
