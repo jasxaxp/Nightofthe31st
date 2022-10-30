@@ -357,6 +357,7 @@
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_Camera.cs"
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs"
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs"
+"Assets/ChasingPumpking.cs"
 "Assets/Clue/NoteAppear.cs"
 "Assets/countdown/countdown.cs"
 "Assets/Heart System/Enemy.cs"
