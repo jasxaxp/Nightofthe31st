@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 40115955}
   - component: {fileID: 40115954}
   m_Layer: 5
-  m_Name: Minutes
+  m_Name: TextText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0:00
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3260,7 +3260,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &510285963
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7470,6 +7470,7 @@ GameObject:
   - component: {fileID: 1061299658}
   - component: {fileID: 1061299660}
   - component: {fileID: 1061299659}
+  - component: {fileID: 1061299661}
   m_Layer: 5
   m_Name: Clock
   m_TagString: Untagged
@@ -7537,6 +7538,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061299657}
   m_CullTransparentMesh: 1
+--- !u!114 &1061299661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061299657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c93bbe0516843d1a3fd42792d8a5a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 510285962}
+  timeImage: {fileID: 1061299659}
+  timeText: {fileID: 40115954}
+  duration: 10
+  currentTime: 0
 --- !u!1001 &1086666176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13973,7 +13991,7 @@ GameObject:
   - component: {fileID: 1450698980}
   - component: {fileID: 1450698979}
   m_Layer: 5
-  m_Name: Minutes Text
+  m_Name: Second Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13996,7 +14014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2681885, y: -44.99991}
+  m_AnchoredPosition: {x: 1.2681885, y: -29}
   m_SizeDelta: {x: 87.382, y: 46.986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450698979
@@ -14019,7 +14037,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Minutes
+  m_text: Seconds Left
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
