@@ -357,9 +357,9 @@
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs"
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs"
 "Assets/Clue/NoteAppear.cs"
-"Assets/MainMenu.cs"
-"Assets/MainStory.cs"
-"Assets/MenuButton.cs"
+"Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/MainStory.cs"
+"Assets/Scripts/MenuButton.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
