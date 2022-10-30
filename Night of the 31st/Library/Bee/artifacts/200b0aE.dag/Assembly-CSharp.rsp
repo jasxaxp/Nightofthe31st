@@ -357,6 +357,7 @@
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs"
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs"
 "Assets/Clue/NoteAppear.cs"
+"Assets/countdown/countdown.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MainStory.cs"
 "Assets/Scripts/MenuButton.cs"
