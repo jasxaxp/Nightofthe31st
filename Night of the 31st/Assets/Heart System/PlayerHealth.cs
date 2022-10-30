@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
-{
+{  
+    [SerializeField] GameObject panel;
     public int maxHealth = 5;
     public int currentHealth;
 
@@ -12,6 +13,14 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+     void OpenPanel()
+    {
+        panel.SetActive(true);
+
+    }
+
+
+
     // Update is called once per frame
     public void TakeDamage(int amount)
     {
@@ -19,6 +28,8 @@ public class PlayerHealth : MonoBehaviour
 
         if(currentHealth < 0)
         Debug.Log("You are dead");
+        OpenPanel();
+        Destroy(gameObject);
 
         
     }

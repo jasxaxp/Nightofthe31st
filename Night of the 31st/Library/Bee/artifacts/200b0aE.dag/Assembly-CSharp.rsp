@@ -358,6 +358,7 @@
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs"
 "Assets/Clue/NoteAppear.cs"
 "Assets/countdown/CountDown.cs"
+"Assets/Heart System/Enemy.cs"
 "Assets/Heart System/FillStatusBar.cs"
 "Assets/Heart System/PlayerHealth.cs"
 "Assets/Scripts/MainMenu.cs"
