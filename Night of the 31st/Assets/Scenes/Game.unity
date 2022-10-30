@@ -4970,6 +4970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673511932}
   - component: {fileID: 673511931}
+  - component: {fileID: 673511933}
   m_Layer: 0
   m_Name: pixelheart
   m_TagString: Untagged
@@ -5044,6 +5045,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 50.223, z: 0}
+--- !u!65 &673511933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673511930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.0999994, y: 4.89, z: 0.95076954}
+  m_Center: {x: 0, y: 0, z: 0.37538433}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
