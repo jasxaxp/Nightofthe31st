@@ -358,6 +358,7 @@
 "Assets/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs"
 "Assets/Clue/NoteAppear.cs"
 "Assets/countdown/CountDown.cs"
+"Assets/Heart System/HeartSystem.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MainStory.cs"
 "Assets/Scripts/MenuButton.cs"
