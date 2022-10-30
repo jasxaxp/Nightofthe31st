@@ -27,9 +27,13 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= amount;
 
         if(currentHealth < 0)
-        Debug.Log("You are dead");
-        OpenPanel();
-        Destroy(gameObject);
+        {
+            Debug.Log("You are dead");
+            OpenPanel();
+            Destroy(gameObject);
+
+        }
+    
 
         
     }

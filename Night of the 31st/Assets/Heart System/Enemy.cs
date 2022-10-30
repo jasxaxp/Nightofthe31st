@@ -5,13 +5,13 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public PlayerHealth playerHealth;
-    public int damage = 2;
+    public int damage = 1;
 
     private void onCollisionEnter(Collision collision) 
     { 
         if(collision.gameObject.tag == "Player") 
         {
-            playerHealth.TakeDamage(1);
+            playerHealth.TakeDamage(damage);
 
         }
       

@@ -360,6 +360,7 @@
 "Assets/countdown/CountDown.cs"
 "Assets/Heart System/Enemy.cs"
 "Assets/Heart System/FillStatusBar.cs"
+"Assets/Heart System/Heal.cs"
 "Assets/Heart System/PlayerHealth.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MainStory.cs"
