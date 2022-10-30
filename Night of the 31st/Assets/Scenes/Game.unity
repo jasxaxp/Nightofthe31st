@@ -3503,8 +3503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 21.056, y: 0}
-  m_SizeDelta: {x: 52.102, y: 0}
+  m_AnchoredPosition: {x: -2.494995, y: 0}
+  m_SizeDelta: {x: 4.99, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &535628418
 MonoBehaviour:
@@ -8416,8 +8416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 2.2971954, y: 0}
-  m_SizeDelta: {x: -4.5945, y: 0}
+  m_AnchoredPosition: {x: 2.296997, y: 0}
+  m_SizeDelta: {x: -4.595, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1265361431
 PrefabInstance:
@@ -15180,7 +15180,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.45
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -15196,9 +15196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef213cdcf9c7b448998760a416a31643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 1650309167}
+  playerHealth: {fileID: 1650309168}
   fillImage: {fileID: 535628418}
-  slider: {fileID: 1603054241}
 --- !u!1001 &1604357739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15557,7 +15556,7 @@ GameObject:
   - component: {fileID: 1650309164}
   - component: {fileID: 1650309166}
   - component: {fileID: 1650309165}
-  - component: {fileID: 1650309167}
+  - component: {fileID: 1650309168}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -15620,7 +15619,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &1650309167
+--- !u!114 &1650309168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15629,11 +15628,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1650309163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae0ecc5a56e5f4c13be067a2b6b867a1, type: 3}
+  m_Script: {fileID: 11500000, guid: a3e948daf37ec40708f06e5aff65fcd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 5
   currentHealth: 5
-  maxHealth: 10
 --- !u!1001 &1656165341
 PrefabInstance:
   m_ObjectHideFlags: 0

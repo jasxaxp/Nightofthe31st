@@ -359,7 +359,6 @@
 "Assets/Clue/NoteAppear.cs"
 "Assets/countdown/CountDown.cs"
 "Assets/Heart System/FillStatusBar.cs"
-"Assets/Heart System/Health.cs"
 "Assets/Heart System/PlayerHealth.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MainStory.cs"
