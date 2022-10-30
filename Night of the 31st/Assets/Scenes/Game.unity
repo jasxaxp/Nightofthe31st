@@ -15500,6 +15500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367814a69a2de481686198063fb8ba0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 421373718}
   hearts:
   - {fileID: 703367423}
   - {fileID: 199066858}

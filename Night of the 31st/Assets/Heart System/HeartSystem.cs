@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HeartSystem : MonoBehaviour
 {
+    [SerializeField] GameObject panel;
 public GameObject[] hearts;
 public GameObject Player;
 private int life;
@@ -14,6 +15,14 @@ private bool dead;
     private void Start()
     {
         life = hearts.Length;
+         panel.SetActive(false);
+    }
+
+
+    void OpenPanel()
+    {
+        panel.SetActive(true);
+
     }
 
     void Update()
@@ -36,6 +45,7 @@ private bool dead;
             if(life < 1)
             {
                 dead = true;
+                OpenPanel();
             }
         }
     }
