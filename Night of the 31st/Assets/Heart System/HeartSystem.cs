@@ -4,38 +4,30 @@ using UnityEngine;
 
 public class HeartSystem : MonoBehaviour
 {
-    [SerializeField] GameObject panel;
-public GameObject[] hearts;
-public GameObject Player;
-private int life;
-private bool dead;
+    public GameObject[] hearts;
+    private int life;
+    private bool dead;
 
 
 
     private void Start()
     {
         life = hearts.Length;
-         panel.SetActive(false);
-    }
-
-
-    void OpenPanel()
-    {
-        panel.SetActive(true);
 
     }
+
+
+
 
     void Update()
     {
         if (dead == true)
         {
-        Destroy(gameObject);
+            Debug.Log("We are dead!");
+
         }
     }
-    private void OnTriggerEnter(Collider other) 
-    {
-        TakeDamage(1);
-    }
+
     public void TakeDamage(int d)
     {
         if (life >= 1)
@@ -45,7 +37,7 @@ private bool dead;
             if(life < 1)
             {
                 dead = true;
-                OpenPanel();
+                
             }
         }
     }
