@@ -7553,7 +7553,7 @@ MonoBehaviour:
   panel: {fileID: 510285962}
   timeImage: {fileID: 1061299659}
   timeText: {fileID: 40115954}
-  duration: 10
+  duration: 420
   currentTime: 0
 --- !u!1001 &1086666176
 PrefabInstance:
