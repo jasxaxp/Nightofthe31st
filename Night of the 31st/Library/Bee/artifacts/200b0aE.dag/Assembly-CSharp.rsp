@@ -363,8 +363,6 @@
 "Assets/Heart System/FillStatusBar.cs"
 "Assets/Heart System/Heal.cs"
 "Assets/Heart System/PlayerHealth.cs"
-"Assets/Low Poly Guns/Scripts/GunsMenu.cs"
-"Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/PumpkingHealth.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MainStory.cs"

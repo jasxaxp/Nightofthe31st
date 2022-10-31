@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {  
-    [SerializeField] GameObject panel;
+  //  [SerializeField] GameObject panel;
     public int maxHealth = 5;
     public int currentHealth;
 
@@ -13,11 +13,11 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-     void OpenPanel()
-    {
-        panel.SetActive(true);
+   //  void OpenPanel()
+ //   {
+  //      panel.SetActive(true);
 
-    }
+ //   }
 
 
 
@@ -29,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth < 0)
         {
             Debug.Log("You are dead");
-            OpenPanel();
+      //      OpenPanel();
             Destroy(gameObject);
 
         }
