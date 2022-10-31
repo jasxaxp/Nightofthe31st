@@ -5,6 +5,7 @@ using UnityEngine;
 public class FiringGun : MonoBehaviour
 {
 	public GameObject theGun;
+	public AudioSource SoundEffect;
 	public bool Firing = false;
     // Start is called before the first frame update
     void Start()
@@ -19,14 +20,15 @@ public class FiringGun : MonoBehaviour
 		{
 			if (Firing == false)
 			{
-				StartCoroutime(GunMechanics());
+				StartCoroutine(GunMechanics());
 			}
 		}
     }
 	IEnumerator GunMechanics()
 	{
 		Firing = true;
-		yield return new WaitForSeconds(0.25f);
+		SoundEffect.Play();
+		yield return new WaitForSeconds(0.05f);
 		Firing = false;
 	}
 }

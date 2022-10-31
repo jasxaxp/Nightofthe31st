@@ -3,7 +3,9 @@ guid: dc22355fc9ee448a6bee071a16336465
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - theGun: {fileID: 919132149155446097, guid: 4df3ce82db8e66645afd54ab1d5b0262, type: 3}
+  - SoundEffect: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
