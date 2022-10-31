@@ -21,7 +21,7 @@ public class PumpkingHealth : MonoBehaviour
 	{
 		if (collision.transform.tag == "Bullet")
 		{
-			this.gameObject.transform.GetChild(1).gameObject.SetActive(false);
+			this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
 			this.gameObject.GetComponent<ChasingPumpking>().enabled = false;
 			this.gameObject.GetComponent<NavMeshAgent>().enabled = false;
 		}
