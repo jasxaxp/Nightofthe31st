@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.012318867, g: 0.030110357, b: 0.043639712, a: 1}
+  m_IndirectSpecularColor: {r: 0.012365467, g: 0.030213956, b: 0.043827396, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6544,7 +6544,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857620999}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 21.63, y: 25.5, z: 8.6}
@@ -6609,7 +6609,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857620999}
   m_LocalRotation: {x: -0, y: 0.60774887, z: -0, w: 0.79412925}
-  m_LocalPosition: {x: 161.96, y: 15.17, z: 852.11}
+  m_LocalPosition: {x: 161.96, y: 16.49, z: 852.11}
   m_LocalScale: {x: 0.23981, y: 0.23981, z: 0.23981}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8060,6 +8060,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c93bbe0516843d1a3fd42792d8a5a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 510285962}
+  timeImage: {fileID: 1061299659}
+  timeText: {fileID: 40115954}
+  duration: 300
+  currentTime: 0
 --- !u!1001 &1086666176
 PrefabInstance:
   m_ObjectHideFlags: 0
