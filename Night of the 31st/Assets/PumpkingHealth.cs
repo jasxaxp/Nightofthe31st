@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class PumpkingHealth : MonoBehaviour
 {
+	public GameObject pumpking;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,8 @@ public class PumpkingHealth : MonoBehaviour
 	{
 		if (collision.transform.tag == "Bullet")
 		{
+			Destroy(gameObject);
+			this.gameObject.GetComponent<AudioSource>().enabled = false;
 			this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
 			this.gameObject.GetComponent<ChasingPumpking>().enabled = false;
 			this.gameObject.GetComponent<NavMeshAgent>().enabled = false;
