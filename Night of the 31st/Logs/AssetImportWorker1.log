@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57857
+50958
 Successfully changed project path to: /Users/isa/Desktop/Nightofthe31st/Night of the 31st
 /Users/isa/Desktop/Nightofthe31st/Night of the 31st
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -60,7 +60,7 @@ Please note that FBX files exported from Cinema4D are still supported.
 Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 377.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 260.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -75,11 +75,11 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56167
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56009
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003002 seconds.
+Registered in 0.003206 seconds.
 Native extension for OSXStandalone target not found
 Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -87,39 +87,39 @@ Please note that FBX files exported from Cinema4D are still supported.
 Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 244.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 237.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.569 seconds
+- Completed reload, in  1.582 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3570ms)
-		BeginReloadAssembly (333ms)
+	ReloadAssembly (1583ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (2366ms)
-			LoadAssemblies (332ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1134ms)
+			LoadAssemblies (229ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1170ms)
+			SetupTypeCache (238ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (200ms)
-			SetupLoadedEditorAssemblies (774ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (731ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (244ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (401ms)
-				ProcessInitializeOnLoadMethodAttributes (106ms)
+				RefreshPlugins (238ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016829 seconds.
+Registered in 0.016661 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -133,36 +133,36 @@ Please note that FBX files exported from Cinema4D are still supported.
 Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 281.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 190.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.108 seconds
+- Completed reload, in  2.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6110ms)
-		BeginReloadAssembly (400ms)
+	ReloadAssembly (2820ms)
+		BeginReloadAssembly (314ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (4655ms)
-			LoadAssemblies (413ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2223ms)
+			LoadAssemblies (276ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2364ms)
+			SetupTypeCache (617ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (180ms)
-			SetupLoadedEditorAssemblies (1587ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (1151ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (282ms)
-				BeforeProcessingInitializeOnLoad (261ms)
-				ProcessInitializeOnLoadAttributes (960ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (190ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (727ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -179,13 +179,13 @@ Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files
 
 Please note that FBX files exported from Cinema4D are still supported.
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.27 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.48 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3595 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (0.6 MB). Loaded Objects now: 4093.
-Memory consumption went from 359.4 MB to 358.7 MB.
-Total: 11.154621 ms (FindLiveObjects: 0.650769 ms CreateObjectMapping: 0.510559 ms MarkObjects: 9.168932 ms  DeleteObjects: 0.821948 ms)
+Unloading 3599 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.7 MB). Loaded Objects now: 4097.
+Memory consumption went from 359.3 MB to 358.6 MB.
+Total: 7.497584 ms (FindLiveObjects: 0.962236 ms CreateObjectMapping: 0.482394 ms MarkObjects: 5.195141 ms  DeleteObjects: 0.856205 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -198,717 +198,128 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.005002 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.300 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3302ms)
-		BeginReloadAssembly (446ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (28ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (170ms)
-		EndReloadAssembly (2399ms)
-			LoadAssemblies (367ms)
-			RebuildTransferFunctionScriptingTraits (4ms)
-			SetupTypeCache (806ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (117ms)
-			SetupLoadedEditorAssemblies (1001ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (777ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 4.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4097.
-Memory consumption went from 358.9 MB to 358.3 MB.
-Total: 26.049750 ms (FindLiveObjects: 0.934541 ms CreateObjectMapping: 0.632975 ms MarkObjects: 23.920034 ms  DeleteObjects: 0.558365 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 3658.065272 seconds.
+  path: Assets/Low Poly Guns/Models
+  artifactKey: Guid(bcb561bb3fcd38947adadb609bc8340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models using Guid(bcb561bb3fcd38947adadb609bc8340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57b75f07481ba87589fda1753c8d39d') in 0.012950 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.004948 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.626 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3630ms)
-		BeginReloadAssembly (614ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (239ms)
-		EndReloadAssembly (2436ms)
-			LoadAssemblies (233ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1160ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (870ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (641ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 3.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4100.
-Memory consumption went from 358.3 MB to 357.7 MB.
-Total: 6.323368 ms (FindLiveObjects: 0.415183 ms CreateObjectMapping: 0.329850 ms MarkObjects: 5.183372 ms  DeleteObjects: 0.393022 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Low Poly Guns/Models/Guns
+  artifactKey: Guid(622949251c23ee64ba0b4df86da88911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns using Guid(622949251c23ee64ba0b4df86da88911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34a6644e7b6e84cd70fefa2a3e5e988') in 0.001196 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.006250 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.121 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4123ms)
-		BeginReloadAssembly (354ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (140ms)
-		EndReloadAssembly (3457ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1741ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (147ms)
-			SetupLoadedEditorAssemblies (1237ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (198ms)
-				ProcessInitializeOnLoadAttributes (925ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 3.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4103.
-Memory consumption went from 358.8 MB to 358.3 MB.
-Total: 9.560774 ms (FindLiveObjects: 0.511557 ms CreateObjectMapping: 0.518531 ms MarkObjects: 7.808573 ms  DeleteObjects: 0.719852 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Low Poly Guns/Scripts
+  artifactKey: Guid(b6c061788de12f54ea6672a16627499a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Scripts using Guid(b6c061788de12f54ea6672a16627499a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2c05ed8fbe2ea2d481ef756700c19b') in 0.001084 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.006618 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 6.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.739 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7742ms)
-		BeginReloadAssembly (752ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (252ms)
-		EndReloadAssembly (6219ms)
-			LoadAssemblies (721ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2392ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (267ms)
-			SetupLoadedEditorAssemblies (2516ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (6ms)
-				BeforeProcessingInitializeOnLoad (345ms)
-				ProcessInitializeOnLoadAttributes (1919ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (37ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 3.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4106.
-Memory consumption went from 359.1 MB to 358.5 MB.
-Total: 9.475294 ms (FindLiveObjects: 0.447892 ms CreateObjectMapping: 0.368467 ms MarkObjects: 8.000551 ms  DeleteObjects: 0.655191 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 15.584619 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault1/assault1.mat
+  artifactKey: Guid(c588de1bd0ae27543958b38850e54921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault1/assault1.mat using Guid(c588de1bd0ae27543958b38850e54921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737939dde219d7e30d6a1721770aab0d') in 2.640940 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.007366 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.891 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5894ms)
-		BeginReloadAssembly (572ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (230ms)
-		EndReloadAssembly (4829ms)
-			LoadAssemblies (316ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1969ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (295ms)
-			SetupLoadedEditorAssemblies (1959ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (307ms)
-				ProcessInitializeOnLoadAttributes (1471ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 6.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4109.
-Memory consumption went from 359.3 MB to 358.7 MB.
-Total: 27.881898 ms (FindLiveObjects: 0.603153 ms CreateObjectMapping: 0.516639 ms MarkObjects: 17.375576 ms  DeleteObjects: 9.381835 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault1/assault1_diffuse.png
+  artifactKey: Guid(89fc40a82916a0c449b689ff792cbaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault1/assault1_diffuse.png using Guid(89fc40a82916a0c449b689ff792cbaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c25ba77006fee15c4b55d43081f8fc') in 1.354555 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.013047 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 4.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.739 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5744ms)
-		BeginReloadAssembly (433ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (161ms)
-		EndReloadAssembly (4956ms)
-			LoadAssemblies (231ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1713ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (338ms)
-			SetupLoadedEditorAssemblies (2168ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (376ms)
-				ProcessInitializeOnLoadAttributes (1561ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 4.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4112.
-Memory consumption went from 359.5 MB to 358.9 MB.
-Total: 14.801637 ms (FindLiveObjects: 0.699261 ms CreateObjectMapping: 0.593762 ms MarkObjects: 12.932740 ms  DeleteObjects: 0.572958 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 2.435631 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault2/assault2.mat
+  artifactKey: Guid(35a5af17f562eb044a809af0526a562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault2/assault2.mat using Guid(35a5af17f562eb044a809af0526a562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaf3f6872dfd0bd8a70eb4f3b9e07fa') in 0.056419 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.006535 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.910 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5914ms)
-		BeginReloadAssembly (675ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (234ms)
-		EndReloadAssembly (4887ms)
-			LoadAssemblies (297ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1762ms)
-			ReleaseScriptCaches (11ms)
-			RebuildScriptCaches (340ms)
-			SetupLoadedEditorAssemblies (2099ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (321ms)
-				ProcessInitializeOnLoadAttributes (1608ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 7.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4115.
-Memory consumption went from 359.7 MB to 359.1 MB.
-Total: 10.876794 ms (FindLiveObjects: 0.669152 ms CreateObjectMapping: 0.616491 ms MarkObjects: 9.174407 ms  DeleteObjects: 0.414291 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.001391 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault2/assault2_diffuse.png
+  artifactKey: Guid(f699987dc2b8fa147bed02b5fb7dd2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault2/assault2_diffuse.png using Guid(f699987dc2b8fa147bed02b5fb7dd2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c3691fa96babe482f7221b03f5a13') in 0.046061 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.003495 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.625 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4627ms)
-		BeginReloadAssembly (388ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (160ms)
-		EndReloadAssembly (3934ms)
-			LoadAssemblies (161ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1389ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (268ms)
-			SetupLoadedEditorAssemblies (1794ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (258ms)
-				ProcessInitializeOnLoadAttributes (1376ms)
-				ProcessInitializeOnLoadMethodAttributes (113ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3540 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4118.
-Memory consumption went from 359.9 MB to 359.3 MB.
-Total: 10.141348 ms (FindLiveObjects: 0.600967 ms CreateObjectMapping: 0.532719 ms MarkObjects: 8.650178 ms  DeleteObjects: 0.355309 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 8.383511 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault3/assault3.mat
+  artifactKey: Guid(9a50065a1e4866b42946175d9a5f86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault3/assault3.mat using Guid(9a50065a1e4866b42946175d9a5f86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496985a73549e9c4ccb291efbadba2e9') in 0.114587 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.003971 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.336 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5342ms)
-		BeginReloadAssembly (708ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (240ms)
-		EndReloadAssembly (4344ms)
-			LoadAssemblies (333ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2258ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (189ms)
-			SetupLoadedEditorAssemblies (1350ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (1035ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 3.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3541 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4122.
-Memory consumption went from 360.5 MB to 359.9 MB.
-Total: 22.399704 ms (FindLiveObjects: 1.758943 ms CreateObjectMapping: 1.637472 ms MarkObjects: 18.335896 ms  DeleteObjects: 0.663534 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault3/assault3_normal.png
+  artifactKey: Guid(246651ca5a975ad4998634d0c534516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault3/assault3_normal.png using Guid(246651ca5a975ad4998634d0c534516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344a39f6e3067bf74ac800aaeb838fd0') in 0.274734 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.004920 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.063 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3066ms)
-		BeginReloadAssembly (595ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (266ms)
-		EndReloadAssembly (2252ms)
-			LoadAssemblies (323ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (892ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (958ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (748ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 3.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3541 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4125.
-Memory consumption went from 360.7 MB to 360.2 MB.
-Total: 6.704691 ms (FindLiveObjects: 0.408265 ms CreateObjectMapping: 0.324472 ms MarkObjects: 5.581239 ms  DeleteObjects: 0.388978 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 3.780831 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault4/assault4.mat
+  artifactKey: Guid(a3de5fdd82f571f4eb16a3c2530b4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault4/assault4.mat using Guid(a3de5fdd82f571f4eb16a3c2530b4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e609724ab37af36d178506e094a4bf78') in 0.058852 seconds 
 ========================================================================
-Received Prepare
-Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-Registering precompiled user dll's ...
-Registered in 0.005151 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.216 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5219ms)
-		BeginReloadAssembly (1804ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (24ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (883ms)
-		EndReloadAssembly (2757ms)
-			LoadAssemblies (1047ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (1232ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (117ms)
-			SetupLoadedEditorAssemblies (920ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (701ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
-Refreshing native plugins compatible for Editor in 3.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3541 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4128.
-Memory consumption went from 361.0 MB to 360.4 MB.
-Total: 5.865289 ms (FindLiveObjects: 0.398712 ms CreateObjectMapping: 0.305889 ms MarkObjects: 4.832610 ms  DeleteObjects: 0.326313 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault4/assault4_normal.png
+  artifactKey: Guid(d5baff63e2303fd46998bc9b9fc03166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault4/assault4_normal.png using Guid(d5baff63e2303fd46998bc9b9fc03166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd985f756106e7ae1195d2cecca61ff25') in 0.084352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.885921 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol1/pistol1.mat
+  artifactKey: Guid(94e64d41f68240c41aabd3ef8e0368e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol1/pistol1.mat using Guid(94e64d41f68240c41aabd3ef8e0368e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b64189294e241d6f710478ed09dc13') in 0.076911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000989 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol1/pistol1_diffuse.png
+  artifactKey: Guid(0d6b1249a62d53f4e8900c84722db1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol1/pistol1_diffuse.png using Guid(0d6b1249a62d53f4e8900c84722db1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c11669b0c1ec2f78344eb55d25515a9') in 0.064360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.888756 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol2/pistol2.mat
+  artifactKey: Guid(7c16b6e19b642c247ba765631635ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol2/pistol2.mat using Guid(7c16b6e19b642c247ba765631635ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8388e7d91c87ccbc3627fbbe931365eb') in 0.070851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol2/pistol2_normal.png
+  artifactKey: Guid(c575c41cb696525499503e0d1142dd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol2/pistol2_normal.png using Guid(c575c41cb696525499503e0d1142dd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cf29db4f580c615fcf11f8b3fc29ec') in 0.053658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003676 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol2/pistol2_diffuse.png
+  artifactKey: Guid(4bc3804b3d89750428df34b00abe88d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol2/pistol2_diffuse.png using Guid(4bc3804b3d89750428df34b00abe88d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fc671d251c21e426a50654a289a5c8') in 0.036504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.840436 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/pistol3.mat
+  artifactKey: Guid(41be456e0ecbed04dba9c27c3add980c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/pistol3.mat using Guid(41be456e0ecbed04dba9c27c3add980c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9148d9e9c08a5a130d668925e4b06441') in 0.052432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/pistol3_normal.png
+  artifactKey: Guid(9faebeb1b9df87d4d845ea9e89fa5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/pistol3_normal.png using Guid(9faebeb1b9df87d4d845ea9e89fa5a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3114be0a1306e3c7b63f234a6c432b1d') in 0.060024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/pistol3_diffuse.png
+  artifactKey: Guid(1ec9fe2fb7e61d24dbd51506576aa912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/pistol3_diffuse.png using Guid(1ec9fe2fb7e61d24dbd51506576aa912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d6f34fef642811c4cf7dc431a083ee') in 0.061106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.398817 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol4/pistol4.mat
+  artifactKey: Guid(afdf30d8614b11d41a6337e2484e3570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol4/pistol4.mat using Guid(afdf30d8614b11d41a6337e2484e3570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7904e477972790e3da5516423228fdf7') in 0.082456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol4/pistol4_normal.png
+  artifactKey: Guid(662ac7af64edac14388027a3cc79fe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol4/pistol4_normal.png using Guid(662ac7af64edac14388027a3cc79fe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253829af268e1327ec66305fad5bb220') in 0.026199 seconds 
