@@ -6463,6 +6463,7 @@ GameObject:
   - component: {fileID: 857621001}
   - component: {fileID: 857621000}
   - component: {fileID: 857621003}
+  - component: {fileID: 857621004}
   m_Layer: 0
   m_Name: vecteezy_poison-in-a-bottle-vector_12213922
   m_TagString: Untagged
@@ -6564,6 +6565,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1650309168}
   damage: 1
+--- !u!136 &857621004
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857620999}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 12.013327
+  m_Height: 34.336784
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 2.4133277}
 --- !u!1001 &861892156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14346,6 +14361,7 @@ GameObject:
   - component: {fileID: 1384350329}
   - component: {fileID: 1384350328}
   - component: {fileID: 1384350332}
+  - component: {fileID: 1384350336}
   - component: {fileID: 1384350331}
   - component: {fileID: 1384350333}
   - component: {fileID: 1384350334}
@@ -14580,6 +14596,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1623699525408497db2ceabe48c41bc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1384350336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384350327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104cdb8f473394443957fee696e3af5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1650309168}
+  damage: 1
 --- !u!1 &1416436771
 GameObject:
   m_ObjectHideFlags: 0
@@ -16193,6 +16223,7 @@ GameObject:
   - component: {fileID: 1650309165}
   - component: {fileID: 1650309168}
   - component: {fileID: 1650309169}
+  - component: {fileID: 1650309170}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -16267,7 +16298,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e948daf37ec40708f06e5aff65fcd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 421373718}
   maxHealth: 5
   currentHealth: 5
 --- !u!65 &1650309169
@@ -16283,6 +16313,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.764103, y: 3.8156118, z: 1}
   m_Center: {x: 0.15205193, y: 0.56780577, z: 0}
+--- !u!136 &1650309170
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650309163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.4844398
+  m_Height: 4.161439
+  m_Direction: 1
+  m_Center: {x: 0.27857208, y: 1.3021474, z: 0.70586777}
 --- !u!1001 &1656165341
 PrefabInstance:
   m_ObjectHideFlags: 0
