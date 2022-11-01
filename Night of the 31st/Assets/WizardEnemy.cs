@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class WizardEnemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public PlayerHealth playerHealth;
+    public int damage = 1;
+	public GameObject wizard;
+	private Animation anim;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnTriggerEnter(Collider other)
+    { 
+        if(other.gameObject.name.Equals("Player"))
+        {
+			this.gameObject.GetComponent<Animator>().Play("attack_short_001");
+            playerHealth.TakeDamage(damage);
+            Debug.Log("You have been hit one point"); 
+
+        }
+      
+
+
     }
 }
