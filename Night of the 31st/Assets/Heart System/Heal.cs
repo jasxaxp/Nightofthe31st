@@ -5,7 +5,7 @@ using UnityEngine;
 public class Heal : MonoBehaviour
 {
    public PlayerHealth playerHealth;
-   public GameObject pixelheart;
+  // public GameObject pixelheart;
    public int heal = 1;
 
    private void OnTriggerEnter(Collider other)
@@ -15,8 +15,8 @@ public class Heal : MonoBehaviour
         //if(other.gameObject.name.Equals("Player"))
         {
             playerHealth.Heal(heal);
+            Destroy(gameObject);
             Debug.Log("You have been healed one point"); 
-            this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
           //  Destroy(GameObject.Find("MedKit"));
         }
       
