@@ -51,6 +51,7 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
+
             
         }
 
