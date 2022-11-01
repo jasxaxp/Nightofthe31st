@@ -5,11 +5,10 @@ using UnityEngine;
 public class WizardsHealth : MonoBehaviour
 {
 	public GameObject wizard;
-	private Animation anim;
     // Start is called before the first frame update
     void Start()
     {
-        
+	
     }
 
     // Update is called once per frame
