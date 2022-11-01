@@ -380,6 +380,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/TriggerEnemy.cs"
 "Assets/TriggerWizard.cs"
+"Assets/WizardEnemy.cs"
 "Assets/WizardsHealth.cs"
 -langversion:9.0
 

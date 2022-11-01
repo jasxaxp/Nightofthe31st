@@ -5,6 +5,7 @@ using UnityEngine;
 public class WizardsHealth : MonoBehaviour
 {
 	public GameObject wizard;
+	private Animation anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class WizardsHealth : MonoBehaviour
 	{
 		if (collision.transform.tag == "Bullet")
 		{
+			this.gameObject.GetComponent<Animator>().Play("dead");
 			Destroy(gameObject);
 			this.gameObject.GetComponent<ChasingWizard>().enabled = false;
 			this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
