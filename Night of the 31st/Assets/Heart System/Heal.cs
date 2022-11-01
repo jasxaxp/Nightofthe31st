@@ -5,14 +5,18 @@ using UnityEngine;
 public class Heal : MonoBehaviour
 {
    public PlayerHealth playerHealth;
+   public GameObject pixelheart;
    public int heal = 1;
 
-    private void onCollisionEnter(Collision collision) 
+   private void OnTriggerEnter(Collider other)
     { 
-        if(collision.gameObject.tag == "Player") 
+        
+        if (playerHealth.currentHealth < playerHealth.maxHealth)
+        //if(other.gameObject.name.Equals("Player"))
         {
             playerHealth.Heal(heal);
-
+            Debug.Log("You have been healed one point"); 
+            Destroy(GameObject.Find("pixelheart"));
         }
       
 

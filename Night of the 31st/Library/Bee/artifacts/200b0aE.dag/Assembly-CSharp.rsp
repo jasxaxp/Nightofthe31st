@@ -365,6 +365,7 @@
 "Assets/Heart System/FillStatusBar.cs"
 "Assets/Heart System/Heal.cs"
 "Assets/Heart System/PlayerHealth.cs"
+"Assets/Heart System/Problem.cs"
 "Assets/Low Poly Guns/Scripts/GunsMenu.cs"
 "Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/PlayerMovement.cs"
@@ -373,7 +374,6 @@
 "Assets/Scripts/MainStory.cs"
 "Assets/Scripts/MenuButton.cs"
 "Assets/Scripts/PlayerController.cs"
-"Assets/Trigger.cs"
 -langversion:9.0
 
 /deterministic
