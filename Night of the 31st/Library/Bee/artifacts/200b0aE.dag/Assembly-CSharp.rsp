@@ -360,8 +360,10 @@
 "Assets/BulletGenerator.cs"
 "Assets/ChasingPumpking.cs"
 "Assets/ChasingWizard.cs"
+"Assets/ChasingZombie.cs"
 "Assets/Clue/NoteAppear.cs"
 "Assets/countdown/countdown.cs"
+"Assets/EnemyZombie.cs"
 "Assets/Fantasy Monster(wizard) Demo/Environment/Scripts/CamCTRLDemo.cs"
 "Assets/Fantasy Monster(wizard) Demo/Environment/Scripts/MoveCTRLDemo.cs"
 "Assets/FiringGun.cs"
@@ -381,8 +383,10 @@
 "Assets/Scripts/ScoreScript.cs"
 "Assets/TriggerEnemy.cs"
 "Assets/TriggerWizard.cs"
+"Assets/TriggerZombie.cs"
 "Assets/WizardEnemy.cs"
 "Assets/WizardsHealth.cs"
+"Assets/ZombieHealth.cs"
 -langversion:9.0
 
 /deterministic
