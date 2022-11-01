@@ -6,7 +6,6 @@ public class PlayerHealth : MonoBehaviour
 {  
     [SerializeField] GameObject panel;
     public Camera playerCamera;
-    public FillStatusBar fillStatusBar;
     public int maxHealth = 5;
     public int currentHealth;
 	public AudioClip hurt;
