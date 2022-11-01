@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: f3760201c91a7459abf3a04ce437d715
+=======
+<<<<<<< Updated upstream:Night of the 31st/Assets/BulletGenerator.cs.meta
+guid: 8c99241ea509f40b6bea10cbed8011da
+=======
+guid: f3760201c91a7459abf3a04ce437d715
+>>>>>>> Stashed changes:Night of the 31st/Assets/Heart System/Problem.cs.meta
+>>>>>>> Stashed changes
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
