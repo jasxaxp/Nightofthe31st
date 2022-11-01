@@ -21,9 +21,9 @@ public class WizardsHealth : MonoBehaviour
 		if (collision.transform.tag == "Bullet")
 		{
 			this.gameObject.GetComponent<Animation>().Play("dead");
-			Destroy(gameObject);
 			this.gameObject.GetComponent<ChasingWizard>().enabled = false;
 			this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+			this.gameObject.transform.GetChild(6).gameObject.gameObject.SetActive(false);
 		}
 	}
 }
