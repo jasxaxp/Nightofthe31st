@@ -361,6 +361,8 @@
 "Assets/ChasingPumpking.cs"
 "Assets/Clue/NoteAppear.cs"
 "Assets/countdown/countdown.cs"
+"Assets/Fantasy Monster(wizard) Demo/Environment/Scripts/CamCTRLDemo.cs"
+"Assets/Fantasy Monster(wizard) Demo/Environment/Scripts/MoveCTRLDemo.cs"
 "Assets/FiringGun.cs"
 "Assets/Heart System/Enemy.cs"
 "Assets/Heart System/FillStatusBar.cs"
