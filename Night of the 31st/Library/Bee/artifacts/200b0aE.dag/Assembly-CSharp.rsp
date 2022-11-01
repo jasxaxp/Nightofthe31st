@@ -377,6 +377,7 @@
 "Assets/Scripts/MainStory.cs"
 "Assets/Scripts/MenuButton.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/ScoreScript.cs"
 "Assets/TriggerEnemy.cs"
 "Assets/TriggerWizard.cs"
 "Assets/WizardEnemy.cs"
