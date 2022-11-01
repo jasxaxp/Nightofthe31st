@@ -6,20 +6,31 @@ using UnityEngine.UI;
 public class FillStatusBar : MonoBehaviour
 {
     public PlayerHealth playerHealth;
-    public Image fillImage;
-    private Slider slider;
+//    public Image fillImage;
+    public Slider slider;
 
-    void Awake()
+    public void SetMaxHealth(int health)
     {
-        slider = GetComponent<Slider>();
+        slider.maxValue = health;
+        slider.value = health;
     }
 
-
-    void Update()
+    public void SetHealth(int health)
     {
-        float fillValue = (playerHealth.currentHealth / playerHealth.maxHealth);
-        slider.value = fillValue;
+        slider.value = health;
     }
+
+//    void Awake()
+//    {
+ //       slider = GetComponent<Slider>();
+ //   }
+
+
+    //void Update()
+   // {
+   //     float fillValue = (playerHealth.currentHealth / playerHealth.maxHealth);
+   //     slider.value = fillValue;
+  //  }
 }
 
 

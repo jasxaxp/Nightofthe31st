@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.012318867, g: 0.030110357, b: 0.043639712, a: 1}
+  m_IndirectSpecularColor: {r: 0.012365467, g: 0.030213956, b: 0.043827396, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8311,7 +8311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1650309168}
-  fillImage: {fileID: 479482369}
+  slider: {fileID: 956201991}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -9507,6 +9507,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c93bbe0516843d1a3fd42792d8a5a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 0}
+  timeImage: {fileID: 0}
+  timeText: {fileID: 0}
+  duration: 0
+  currentTime: 0
 --- !u!1001 &1086666176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18329,10 +18334,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 421373718}
   playerCamera: {fileID: 963194227}
-  maxHealth: 5
-  currentHealth: 5
+  maxHealth: 10
+  currentHealth: 10
   hurt: {fileID: 8300000, guid: 106312e88aaf9498f84f21fbbf259385, type: 3}
   gain: {fileID: 8300000, guid: c9447d40d01aa4bb885ddfc0ea735475, type: 3}
+  fillStatusBar: {fileID: 956201992}
 --- !u!65 &1650309169
 BoxCollider:
   m_ObjectHideFlags: 0

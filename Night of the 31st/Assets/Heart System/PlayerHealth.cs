@@ -6,14 +6,17 @@ public class PlayerHealth : MonoBehaviour
 {  
     [SerializeField] GameObject panel;
     public Camera playerCamera;
-    public int maxHealth = 5;
+    public int maxHealth = 10;
     public int currentHealth;
 	public AudioClip hurt;
 	public AudioClip gain;
 
+    public FillStatusBar fillStatusBar;
+
     void Start()
     {
         currentHealth = maxHealth;
+        fillStatusBar.SetMaxHealth(maxHealth);
     }
     
     void OpenPanel()
@@ -26,6 +29,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= amount;
 		AudioSource.PlayClipAtPoint(hurt, transform.position, 1);
+        fillStatusBar.SetHealth(currentHealth);
 
         if(currentHealth < 0)  
         {
@@ -42,10 +46,12 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth += amount;
 		AudioSource.PlayClipAtPoint(gain, transform.position, 1);
+        fillStatusBar.SetHealth(currentHealth);
 
         if(currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
+            
         }
 
         
