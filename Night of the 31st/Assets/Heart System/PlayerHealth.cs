@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
-		 AudioSource.PlayClipAtPoint(hurt, transform.position, 1);
+		AudioSource.PlayClipAtPoint(hurt, transform.position, 1);
 
         if(currentHealth < 0)  
         {
