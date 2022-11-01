@@ -278,3 +278,160 @@ Received Import Request.
   path: Assets/Fantasy Monster(wizard) Demo/Prefabs/with weapon/wizard_weapon_legacy DEMO.prefab
   artifactKey: Guid(a967089208f523246bbb4911dd5cde5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Fantasy Monster(wizard) Demo/Prefabs/with weapon/wizard_weapon_legacy DEMO.prefab using Guid(a967089208f523246bbb4911dd5cde5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dd9e8bb884638efd1226838c01746f') in 1.855543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 715.798194 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Prefabs/without weapon/wizard_legacy DEMO.prefab
+  artifactKey: Guid(cebe9eaf887c5944f95c8c1382cd119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Prefabs/without weapon/wizard_legacy DEMO.prefab using Guid(cebe9eaf887c5944f95c8c1382cd119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9f6e43a67ddf13a3574f462d2eb324') in 1.482496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.184886 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy
+  artifactKey: Guid(16af5fc6a9097ed4291704a3a8e83808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy using Guid(16af5fc6a9097ed4291704a3a8e83808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bf6472b8ad380f7b3dad11088ff8ed') in 0.002320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.672228 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon
+  artifactKey: Guid(0d8ae0a0850fefb4b987f0cfd4ee75df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon using Guid(0d8ae0a0850fefb4b987f0cfd4ee75df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1ea5eecb2b2a26eb8dd160872a21ee') in 0.002490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.855430 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/attack_short_001.anim
+  artifactKey: Guid(1f331688dfc131d44ac24de634e5a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/attack_short_001.anim using Guid(1f331688dfc131d44ac24de634e5a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee239d7c382ca6c84466ea18a117fc4f') in 0.396428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.518112 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/damage_001.anim
+  artifactKey: Guid(fafb667a18a21154db78c60c2cb68841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/damage_001.anim using Guid(fafb667a18a21154db78c60c2cb68841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8508f11744980a611e1e6bb8f02b3f73') in 0.084378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.780123 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/dead.anim
+  artifactKey: Guid(97f061d6fe22cfa4b81db0a070d75bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/dead.anim using Guid(97f061d6fe22cfa4b81db0a070d75bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bf0d431c0e214d4e54e31f315ec4d4') in 0.186479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.259055 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/idle_combat.anim
+  artifactKey: Guid(9159872ee2dfc97458d179623772e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/idle_combat.anim using Guid(9159872ee2dfc97458d179623772e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7365f45f1110e52e9c54642a89f8ad8b') in 0.118550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.394035 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/idle_normal.anim
+  artifactKey: Guid(6d2c7b500babe564cbae56db67034d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/idle_normal.anim using Guid(6d2c7b500babe564cbae56db67034d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317b541a5cee072b845db51ca88a38e1') in 0.160084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.411909 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/move_forward.anim
+  artifactKey: Guid(e67fd987be4334e469b03cfc2ad2bb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/move_forward.anim using Guid(e67fd987be4334e469b03cfc2ad2bb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abdab9c1dd7eece1fddbe6422de8b2f') in 0.072255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.534982 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/move_forward_fast.anim
+  artifactKey: Guid(7bd7538e4de8e6b48bac06bed1b90988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animations/Legacy/with weapon/move_forward_fast.anim using Guid(7bd7538e4de8e6b48bac06bed1b90988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649280ec37d4a0be7909e5c39155be8f') in 0.067939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.647872 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Scripts
+  artifactKey: Guid(c992741f48cbfc940b0b7c6ebc0566af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Scripts using Guid(c992741f48cbfc940b0b7c6ebc0566af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5ef72306ef685f2425e223e547db4f') in 0.002436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.761986 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Environment/Scripts/CamCTRLDemo.cs
+  artifactKey: Guid(e69a2936f4f2c944c821e32c62d34d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Environment/Scripts/CamCTRLDemo.cs using Guid(e69a2936f4f2c944c821e32c62d34d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04203c20ecf7684a621151b11c1f3a15') in 0.813247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.009126 seconds.
+  path: Assets/ChasingWizard.cs
+  artifactKey: Guid(fafc9b4c18b56457d8c890b4151c648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChasingWizard.cs using Guid(fafc9b4c18b56457d8c890b4151c648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd266f71df221e88c0f9246a81712e811') in 0.016500 seconds 
+========================================================================
+Received Prepare
+Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.006045 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/Nightofthe31st/Night of the 31st/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2349ms)
+		BeginReloadAssembly (513ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (191ms)
+		EndReloadAssembly (1602ms)
+			LoadAssemblies (362ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (553ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (650ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (503ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.5 MB). Loaded Objects now: 4161.
+Memory consumption went from 411.9 MB to 410.3 MB.
+Total: 14.004424 ms (FindLiveObjects: 1.210013 ms CreateObjectMapping: 0.663872 ms MarkObjects: 9.815221 ms  DeleteObjects: 2.312976 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.996493 seconds.
+  path: Assets/WizardsHealth.cs
+  artifactKey: Guid(9cb87a99d8d5446a7aa5eaf1c8cce336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardsHealth.cs using Guid(9cb87a99d8d5446a7aa5eaf1c8cce336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b46e31451f22faed231227c11aca04') in 0.120915 seconds 
+========================================================================
+Received Prepare
+Assets/pumpkin/Bad Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Assets/pumpkin/Good Jack.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.005193 seconds.
+Begin MonoManager ReloadAssembly
