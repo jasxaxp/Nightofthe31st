@@ -1,0 +1,2 @@
+Temp/ScriptUpdater/325267976/1129015040_WizardsHealth.cs => Assets/WizardsHealth.cs
+Temp/ScriptUpdater/325267976/900309947_ChasingWizard.cs => Assets/ChasingWizard.cs
