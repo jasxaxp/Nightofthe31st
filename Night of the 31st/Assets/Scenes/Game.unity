@@ -16871,6 +16871,7 @@ MonoBehaviour:
   maxHealth: 5
   currentHealth: 5
   hurt: {fileID: 8300000, guid: 106312e88aaf9498f84f21fbbf259385, type: 3}
+  gain: {fileID: 8300000, guid: c9447d40d01aa4bb885ddfc0ea735475, type: 3}
 --- !u!65 &1650309169
 BoxCollider:
   m_ObjectHideFlags: 0

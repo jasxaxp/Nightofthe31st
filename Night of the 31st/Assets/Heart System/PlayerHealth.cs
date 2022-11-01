@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 5;
     public int currentHealth;
 	public AudioClip hurt;
+	public AudioClip gain;
 
     void Start()
     {
@@ -40,6 +41,7 @@ public class PlayerHealth : MonoBehaviour
      public void Heal(int amount)
     {
         currentHealth += amount;
+		AudioSource.PlayClipAtPoint(gain, transform.position, 1);
 
         if(currentHealth > maxHealth)
         {
