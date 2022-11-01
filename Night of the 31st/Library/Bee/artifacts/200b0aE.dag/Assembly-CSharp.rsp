@@ -379,6 +379,7 @@
 "Assets/Scripts/MenuButton.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/TriggerEnemy.cs"
+"Assets/TriggerWizard.cs"
 "Assets/WizardsHealth.cs"
 -langversion:9.0
 
