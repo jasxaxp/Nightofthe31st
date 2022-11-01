@@ -16,7 +16,7 @@ public class Heal : MonoBehaviour
         {
             playerHealth.Heal(heal);
             Debug.Log("You have been healed one point"); 
-            Destroy(GameObject.Find("pixelheart"));
+            Destroy(GameObject.Find("MedKit"));
         }
       
 
