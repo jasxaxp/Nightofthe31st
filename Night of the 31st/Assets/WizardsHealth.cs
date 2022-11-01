@@ -20,6 +20,7 @@ public class WizardsHealth : MonoBehaviour
 	{
 		if (collision.transform.tag == "Bullet")
 		{
+			ScoreScript.scoreValue += 1;
 			this.gameObject.GetComponent<Animation>().Play("dead");
 			this.gameObject.GetComponent<ChasingWizard>().enabled = false;
 			this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;

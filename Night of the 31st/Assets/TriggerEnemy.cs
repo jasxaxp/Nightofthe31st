@@ -70,40 +70,5 @@ public class TriggerEnemy : MonoBehaviour
 		enemy4.GetComponent<ChasingPumpking>().enabled = true;
 		enemy5.GetComponent<ChasingPumpking>().enabled = true;
 		enemy6.GetComponent<ChasingPumpking>().enabled = true;
-		enemy7.GetComponent<ChasingPumpking>().enabled = true;
-		enemy8.GetComponent<ChasingPumpking>().enabled = true;
-		enemy9.GetComponent<ChasingPumpking>().enabled = true;
-		enemy10.GetComponent<ChasingPumpking>().enabled = true;
-		enemy11.GetComponent<ChasingPumpking>().enabled = true;
-		enemy12.GetComponent<ChasingPumpking>().enabled = true;
-		enemy13.GetComponent<ChasingPumpking>().enabled = true;
-		enemy14.GetComponent<ChasingPumpking>().enabled = true;
-		enemy15.GetComponent<ChasingPumpking>().enabled = true;
-		enemy16.GetComponent<ChasingPumpking>().enabled = true;
-		enemy17.GetComponent<ChasingPumpking>().enabled = true;
-		enemy18.GetComponent<ChasingPumpking>().enabled = true;
-		enemy19.GetComponent<ChasingPumpking>().enabled = true;
-		enemy20.GetComponent<ChasingPumpking>().enabled = true;
-		enemy21.GetComponent<ChasingPumpking>().enabled = true;
-		enemy22.GetComponent<ChasingPumpking>().enabled = true;
-		enemy23.GetComponent<ChasingPumpking>().enabled = true;
-		enemy24.GetComponent<ChasingPumpking>().enabled = true;
-		enemy25.GetComponent<ChasingPumpking>().enabled = true;
-		enemy25.GetComponent<ChasingPumpking>().enabled = true;
-		enemy26.GetComponent<ChasingPumpking>().enabled = true;
-		enemy27.GetComponent<ChasingPumpking>().enabled = true;
-		enemy29.GetComponent<ChasingPumpking>().enabled = true;
-		enemy30.GetComponent<ChasingPumpking>().enabled = true;
-		enemy31.GetComponent<ChasingPumpking>().enabled = true;
-		enemy32.GetComponent<ChasingPumpking>().enabled = true;
-		enemy33.GetComponent<ChasingPumpking>().enabled = true;
-		enemy34.GetComponent<ChasingPumpking>().enabled = true;
-		enemy35.GetComponent<ChasingPumpking>().enabled = true;
-		enemy36.GetComponent<ChasingPumpking>().enabled = true;
-		enemy37.GetComponent<ChasingPumpking>().enabled = true;
-		enemy38.GetComponent<ChasingPumpking>().enabled = true;
-		enemy39.GetComponent<ChasingPumpking>().enabled = true;
-		enemy40.GetComponent<ChasingPumpking>().enabled = true;
-
  	}
 }

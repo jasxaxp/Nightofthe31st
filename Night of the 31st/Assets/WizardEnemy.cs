@@ -13,8 +13,8 @@ public class WizardEnemy : MonoBehaviour
     { 
         if(other.gameObject.name.Equals("Player"))
         {
-			anim = GetComponent<Animation>();
-			this.gameObject.GetComponent<Animation>().Play("attack_short_001");
+			anim = wizard.GetComponent<Animation>();
+			anim.Play("attack_short_001");
             playerHealth.TakeDamage(damage);
             Debug.Log("You have been hit one point"); 
 
