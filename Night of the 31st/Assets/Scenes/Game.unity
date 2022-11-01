@@ -3440,6 +3440,7 @@ GameObject:
   - component: {fileID: 481397655}
   - component: {fileID: 481397654}
   - component: {fileID: 481397653}
+  - component: {fileID: 481397656}
   m_Layer: 0
   m_Name: weapon
   m_TagString: enemy
@@ -3456,7 +3457,7 @@ Transform:
   m_GameObject: {fileID: 481397651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.46, z: -0.12}
-  m_LocalScale: {x: 1.0224, y: 1.8444098, z: 13.445203}
+  m_LocalScale: {x: 3.9892995, y: 1.8444098, z: 5.6359534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1384350330}
@@ -3525,6 +3526,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481397651}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &481397656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481397651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104cdb8f473394443957fee696e3af5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1650309168}
+  damage: 1
 --- !u!1001 &497523064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7199,6 +7214,7 @@ GameObject:
   - component: {fileID: 868017338}
   - component: {fileID: 868017337}
   - component: {fileID: 868017336}
+  - component: {fileID: 868017339}
   m_Layer: 0
   m_Name: weapon
   m_TagString: enemy
@@ -7215,7 +7231,7 @@ Transform:
   m_GameObject: {fileID: 868017334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.46, z: -0.12}
-  m_LocalScale: {x: 1.0224, y: 1.8444098, z: 13.445203}
+  m_LocalScale: {x: 3.8127844, y: 1.8444098, z: 5.617554}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1297824688}
@@ -7284,6 +7300,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868017334}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &868017339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868017334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104cdb8f473394443957fee696e3af5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1650309168}
+  damage: 1
 --- !u!1001 &870092047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7765,6 +7795,7 @@ GameObject:
   - component: {fileID: 917474782}
   - component: {fileID: 917474781}
   - component: {fileID: 917474780}
+  - component: {fileID: 917474783}
   m_Layer: 0
   m_Name: weapon
   m_TagString: enemy
@@ -7781,7 +7812,7 @@ Transform:
   m_GameObject: {fileID: 917474778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.46, z: -0.12}
-  m_LocalScale: {x: 1.0224, y: 1.8444098, z: 13.445203}
+  m_LocalScale: {x: 3.9619064, y: 1.8444098, z: 5.768745}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 582835940}
@@ -7850,6 +7881,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917474778}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &917474783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917474778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104cdb8f473394443957fee696e3af5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1650309168}
+  damage: 1
 --- !u!1 &924068111
 GameObject:
   m_ObjectHideFlags: 0
@@ -8908,7 +8953,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037207167}
   m_LocalRotation: {x: 0.019899143, y: -0.5496328, z: 0.0060490933, w: -0.83514744}
-  m_LocalPosition: {x: 296.8, y: -18.3, z: -47.8}
+  m_LocalPosition: {x: 300.48, y: -14.26, z: -56.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10463,6 +10508,7 @@ GameObject:
   - component: {fileID: 1261099524}
   - component: {fileID: 1261099523}
   - component: {fileID: 1261099522}
+  - component: {fileID: 1261099525}
   m_Layer: 0
   m_Name: weapon
   m_TagString: enemy
@@ -10479,7 +10525,7 @@ Transform:
   m_GameObject: {fileID: 1261099520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.46, z: -0.12}
-  m_LocalScale: {x: 1.0224, y: 1.8444098, z: 13.445203}
+  m_LocalScale: {x: 3.92629, y: 1.8444098, z: 5.3117504}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1658997861}
@@ -10548,6 +10594,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261099520}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1261099525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261099520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104cdb8f473394443957fee696e3af5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1650309168}
+  damage: 1
 --- !u!1001 &1265361431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17315,6 +17375,7 @@ GameObject:
   - component: {fileID: 1548437407}
   - component: {fileID: 1548437406}
   - component: {fileID: 1548437405}
+  - component: {fileID: 1548437408}
   m_Layer: 0
   m_Name: weapon
   m_TagString: enemy
@@ -17331,7 +17392,7 @@ Transform:
   m_GameObject: {fileID: 1548437403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.46, z: -0.12}
-  m_LocalScale: {x: 1.0224, y: 1.8444098, z: 13.445203}
+  m_LocalScale: {x: 4.3637443, y: 1.8444098, z: 5.1759996}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1037207168}
@@ -17400,6 +17461,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548437403}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1548437408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548437403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104cdb8f473394443957fee696e3af5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1650309168}
+  damage: 1
 --- !u!1 &1548761467
 GameObject:
   m_ObjectHideFlags: 0
@@ -20864,6 +20939,7 @@ GameObject:
   - component: {fileID: 1942988266}
   - component: {fileID: 1942988265}
   - component: {fileID: 1942988264}
+  - component: {fileID: 1942988267}
   m_Layer: 0
   m_Name: weapon
   m_TagString: enemy
@@ -20880,7 +20956,7 @@ Transform:
   m_GameObject: {fileID: 1942988262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.46, z: -0.12}
-  m_LocalScale: {x: 1.0224, y: 1.8444098, z: 13.445203}
+  m_LocalScale: {x: 4.028967, y: 2.9960594, z: 4.9216166}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1058549807}
@@ -20949,6 +21025,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942988262}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1942988267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942988262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104cdb8f473394443957fee696e3af5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 1650309168}
+  damage: 1
 --- !u!1001 &1952060589
 PrefabInstance:
   m_ObjectHideFlags: 0
