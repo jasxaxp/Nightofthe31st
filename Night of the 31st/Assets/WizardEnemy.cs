@@ -18,8 +18,5 @@ public class WizardEnemy : MonoBehaviour
             playerHealth.TakeDamage(damage);
             Debug.Log("You have been hit one point"); 
         }
-      
-
-
     }
 }

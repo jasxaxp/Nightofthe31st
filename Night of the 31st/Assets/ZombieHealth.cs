@@ -21,7 +21,7 @@ public class ZombieHealth : MonoBehaviour
 		if (collision.transform.tag == "Bullet")
 		{
 			ScoreScript.scoreValue += 1;
-			this.gameObject.GetComponent<Animation>().Play("Death");
+			this.gameObject.GetComponent<AudioSource>().enabled = false;
 			this.gameObject.GetComponent<ChasingZombie>().enabled = false;
 			this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
 			this.gameObject.transform.GetChild(5).gameObject.gameObject.SetActive(false);

@@ -18,8 +18,6 @@ public class ChasingZombie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		zombie.GetComponent<Animation>().Play("Walk");
         Enemy.SetDestination(Target.transform.position);
-		
     }
 }
