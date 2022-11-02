@@ -6,6 +6,9 @@ public class TriggerSkeleton : MonoBehaviour
 {
 	public GameObject player;
 	public GameObject enemy;
+	public GameObject enemy1;
+	public GameObject enemy2;
+	public GameObject enemy3;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +24,8 @@ public class TriggerSkeleton : MonoBehaviour
 	{
 		// enable script on GameObject when player enters trigger
 		enemy.GetComponent<ChasingWizard>().enabled = true;
+		enemy1.GetComponent<ChasingWizard>().enabled = true;
+		enemy2.GetComponent<ChasingWizard>().enabled = true;
+		enemy3.GetComponent<ChasingWizard>().enabled = true;
 	}
 }
