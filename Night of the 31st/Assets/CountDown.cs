@@ -9,7 +9,7 @@ public class CountDown : MonoBehaviour
     [SerializeField] GameObject panel;
 
     [SerializeField] Image timeImage;
-
+	
     [SerializeField] TMP_Text timeText;
 
     [SerializeField] float duration, currentTime;
