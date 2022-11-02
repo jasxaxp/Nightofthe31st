@@ -23,9 +23,9 @@ public class TriggerSkeleton : MonoBehaviour
 	void OnTriggerEnter(Collider other) 
 	{
 		// enable script on GameObject when player enters trigger
-		enemy.GetComponent<ChasingWizard>().enabled = true;
-		enemy1.GetComponent<ChasingWizard>().enabled = true;
-		enemy2.GetComponent<ChasingWizard>().enabled = true;
-		enemy3.GetComponent<ChasingWizard>().enabled = true;
+		enemy.GetComponent<ChasingSkeleton>().enabled = true;
+		enemy1.GetComponent<ChasingSkeleton>().enabled = true;
+		enemy2.GetComponent<ChasingSkeleton>().enabled = true;
+		enemy3.GetComponent<ChasingSkeleton>().enabled = true;
 	}
 }
