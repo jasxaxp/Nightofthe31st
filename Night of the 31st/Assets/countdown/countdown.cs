@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class CountDown : MonoBehaviour
+public class CountDown : MonoBehaviour 
 {
     [SerializeField] GameObject panel;
 
@@ -41,7 +41,7 @@ public class CountDown : MonoBehaviour
         panel.SetActive(true);
 
     }
-
+ 
 
   
 }
