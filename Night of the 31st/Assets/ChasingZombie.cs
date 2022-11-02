@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class ChasingZombie : MonoBehaviour
 {
+    NavMeshAgent Enemy;
+	GameObject Target;
+	public GameObject zombie;
     // Start is called before the first frame update
     void Start()
     {
-        
+       Target = GameObject.FindWithTag("Player");
+	   Enemy = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+		zombie.GetComponent<Animation>().Play("Walk");
+        Enemy.SetDestination(Target.transform.position);
+		
     }
 }
