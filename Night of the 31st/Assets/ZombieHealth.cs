@@ -20,6 +20,7 @@ public class ZombieHealth : MonoBehaviour
 	{
 		if (collision.transform.tag == "Bullet")
 		{
+			Destroy(gameObject);
 			ScoreScript.scoreValue += 1;
 			this.gameObject.GetComponent<AudioSource>().enabled = false;
 			this.gameObject.GetComponent<ChasingZombie>().enabled = false;

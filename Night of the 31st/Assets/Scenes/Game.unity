@@ -1273,7 +1273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab736e9e2d60846a6b6ea9f7a1ba2bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 78100996}
 --- !u!195 &78100998
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1308,7 +1307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9162e1e8da38a4674ae5b3cd6ae5a942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 0}
+  zombie: {fileID: 78100996}
 --- !u!82 &78101000
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1497,7 +1496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab736e9e2d60846a6b6ea9f7a1ba2bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 95307318}
 --- !u!195 &95307320
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1532,7 +1530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9162e1e8da38a4674ae5b3cd6ae5a942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 0}
+  zombie: {fileID: 95307318}
 --- !u!82 &95307322
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6262,6 +6260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 111670102475343736, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 227ee07e9e5b7914ba8fbb8f430be9a5, type: 3}
 --- !u!1 &506571043 stripped
@@ -6286,7 +6288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9162e1e8da38a4674ae5b3cd6ae5a942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 0}
+  zombie: {fileID: 506571043}
 --- !u!65 &506571046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6334,7 +6336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab736e9e2d60846a6b6ea9f7a1ba2bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 506571043}
 --- !u!82 &506571049
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13768,7 +13769,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab736e9e2d60846a6b6ea9f7a1ba2bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 937695174}
 --- !u!195 &937695177
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13803,7 +13803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9162e1e8da38a4674ae5b3cd6ae5a942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 0}
+  zombie: {fileID: 937695174}
 --- !u!82 &937695179
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14767,7 +14767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab736e9e2d60846a6b6ea9f7a1ba2bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 1012964139}
 --- !u!195 &1012964141
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14802,7 +14801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9162e1e8da38a4674ae5b3cd6ae5a942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 0}
+  zombie: {fileID: 1012964139}
 --- !u!82 &1012964143
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18344,7 +18343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab736e9e2d60846a6b6ea9f7a1ba2bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 1252537590}
 --- !u!195 &1252537592
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -18379,7 +18377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9162e1e8da38a4674ae5b3cd6ae5a942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 0}
+  zombie: {fileID: 1252537590}
 --- !u!82 &1252537594
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30207,7 +30205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab736e9e2d60846a6b6ea9f7a1ba2bb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 1771965059}
 --- !u!195 &1771965061
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -30242,7 +30239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9162e1e8da38a4674ae5b3cd6ae5a942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 0}
+  zombie: {fileID: 1771965059}
 --- !u!82 &1771965063
 AudioSource:
   m_ObjectHideFlags: 0

@@ -7,7 +7,6 @@ public class ChasingZombie : MonoBehaviour
 {
     NavMeshAgent Enemy;
 	GameObject Target;
-	public GameObject zombie;
     // Start is called before the first frame update
     void Start()
     {
