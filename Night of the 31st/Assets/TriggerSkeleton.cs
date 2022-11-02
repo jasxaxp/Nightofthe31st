@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TriggerSkeleton : MonoBehaviour
 {
+	public GameObject player;
+	public GameObject enemy;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +17,9 @@ public class TriggerSkeleton : MonoBehaviour
     {
         
     }
+	void OnTriggerEnter(Collider other) 
+	{
+		// enable script on GameObject when player enters trigger
+		enemy.GetComponent<ChasingWizard>().enabled = true;
+	}
 }

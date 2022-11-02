@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class EnemySkeleton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public PlayerHealth playerHealth;
+    public int damage = 1;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnTriggerEnter(Collider other)
+    { 
+        if(other.gameObject.name.Equals("Player"))
+        {
+            playerHealth.TakeDamage(damage);
+            Debug.Log("You have been hit one point"); 
+        }
     }
 }
